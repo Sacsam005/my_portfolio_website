@@ -1,0 +1,139 @@
+body {
+  background: #002147;
+  height: 100vh;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+form {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  max-width: 97%;
+  border-radius: 4px;
+}
+
+form .title h2 {
+  letter-spacing: 6px;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+form .half {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label {
+  display: block;
+  font-size: 1.5rem;
+  letter-spacing: 3.5px;
+  margin-bottom: 1rem;
+}
+
+form .half .item input {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  outline: 0;
+  padding: 1rem;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.item input#name,
+.item input#email,
+.item input#message {
+  color: #fff !important;
+  font-family: 'Abel', sans-serif;
+  resize: none;
+}
+
+form .full {
+  padding-top: 1rem;
+}
+
+form .full textarea {
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  outline: 0;
+  width: 100%;
+  height: 200px;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+::placeholder {
+  color: #fff !important;
+  opacity: 0.4;
+}
+
+form .action {
+  padding-top: 2rem;
+}
+
+form .action input {
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  margin-right: 10px;
+}
+
+form .action input[type='submit'] {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+form .action input[type='submit'],
+.action input[type='reset'] {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+  border-style: none;
+  font-weight: 700;
+}
+
+form .action input[type='submit']:hover,
+.action input[type='reset']:hover {
+  box-shadow: 3px 3px 3px orange;
+}
+
+.half .item input:focus,
+.full textarea:focus {
+  background: rgba(255, 255, 255, 0.075);
+}
+
+@media (max-width: 500px) {
+  form .half {
+    flex-direction: column;
+  }
+  form .half .item {
+    width: 100%;
+  }
+  form .action {
+    display: flex;
+    flex-direction: column;
+  }
+  form .action input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}

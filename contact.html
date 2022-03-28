@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sachin Samal - Contact Form</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT4260NNGK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RT4260NNGK');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="./img/profile1.png" />
+    <link rel="apple-touch-icon" href="./img/profile1.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Custom cursor  -->
+    <img src="./img/cursor.png" class="cursor" alt="Cursor">
+    <!-- Custom cursor  -->
+
+    <!-- Page Transition -->
+    <div class="transition">
+        <div class="cover cover1"></div>
+        <div class="cover cover2"></div>
+        <div class="cover cover3"></div>
+    </div>
+    <div id="loader"></div>
+    <!--End of Page Transition -->
+
+    <!-- Header Section -->
+    <header id="home">
+        <nav>
+            <img src="./img/logo.png" alt="logo" id="logo">
+
+            <div class="navbar">
+                <ul class="nav-menu">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home" style="color:#e08f14"></i>
+                            <span id="uppercase">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="blog.html">
+                            <i class="fab fa-blogger" style="color: #D32CCA;"></i>
+                            <span id="uppercase">Blogs</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">
+                            <i class="fab fa-connectdevelop" style="color:#18c4bf"></i>
+                            <span id="uppercase">Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="extras.html">
+                            <i class="fas fa-briefcase" style="color:#fdf907;"></i>
+                            <span id="uppercase">Experience</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">
+                            <i class="fas fa-id-card" style="color:#556cf2;"></i>
+                            <span id="uppercase">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <div class="scroll-indicator"></div>
+    </header>
+    <!-- End of Header Section -->
+
+
+    <!-- Form Section -->
+    <div class="form">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks.html" data-aos="fade-in">
+            <div class="title">
+                <h2 data-aos="zoom-in">CONTACT</h2>
+            </div>
+            <div class="half">
+                <div class="item" data-aos="zoom-in-right">
+                    <label for="name">FULL NAME</label>
+                    <input type="text" placeholder="Full Name" id="name" name="name" required>
+                </div>
+                <div class="item" data-aos="zoom-in-left">
+                    <label for="email">EMAIL</label>
+                    <input type="text" placeholder="Email Address" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="full" data-aos="zoom-out">
+                <label for="message">MESSAGE</label>
+                <textarea name="message" placeholder="Message" id="message" required></textarea>
+            </div>
+            <div class="action">
+                <input type="submit" value="SEND MESSAGE" data-aos="zoom-in-right">
+                <input type="reset" value="RESET" data-aos="zoom-in-left">
+            </div>
+        </form>
+    </div>
+    <!-- End  of Form Section -->
+
+    <!-- Footer Section-->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="quote" data-aos="fade-left">
+                <p>Any mistake is a <strong>wonderful revenue</strong>-Jack Ma</p>
+            </div>
+
+            <div class="sitemap" data-aos="fade-down">
+                <h3>Sitemap</h3>
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html#about">Assets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#achievements">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="project.html#tools">Tech STACKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#skills">Skills</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sitemap" data-aos="fade-down">
+                <h3>Navigation</h3>
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html">
+                            <i class="fas fa-home" style="color:#e08f14"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html">
+                            <i class="fab fa-blogger" style="color: #D32CCA;"></i>
+                            Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="project.html">
+                            <i class="fab fa-connectdevelop" style="color:#18c4bf"></i>
+                            Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="extras.html">
+                            <i class="fas fa-briefcase" style="color:#fdf907;"></i>
+                            Experience
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">
+                            <i class="fas fa-id-card" style="color:#556cf2;"></i>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social" data-aos="fade-right">
+                <h3>Connect with me</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/sachinsamal120" target="_blank">
+                            <i class="fab fa-facebook fa-2x" style="color: #3566c7;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/shachinmagar/" target="_blank">
+                            <i class="fab fa-instagram fa-2x" style="color: #fbad50;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/SachinSamal6" target="_blank">
+                            <i class="fab fa-twitter fa-2x" style="color: #1DA1F2;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Sacsam005" target="_blank">
+                            <i class="fab fa-github fa-2x" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackoverflow.com/users/16971472/shachin-magar" target="_blank">
+                            <i class="fab fa-stack-overflow fa-2x" style="color: goldenrod;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sachin-samal-590b19138/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x" style="color:#0e76a8"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://leetcode.com/Sacsam005/" target="_blank">
+                            <i class="fab fa-codepen fa-2x" style="color: red"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/channels/@me" target="_blank">
+                            <i class="fab fa-discord fa-2x" style="color: #7289DA"></i>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-light" placeholder="Email">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <a href="mailto:shachinmagar120.sm@gmail.com"><i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <p class="text-center">&copy; 2021 | This page is maintained by
+            <a href="index.html#home">
+                <span style="color:orange; font-weight: bold;">Sacsam005</span>
+            </a>
+        </p>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Animation on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            duration: 1500 // values from 0 to 3000, with step 50ms
+        });
+    </script>
+    <!-- End of Animation on scroll -->
+
+    <!-- Optional Javascript -->
+    <script src="./js/chatbot.js"></script>
+    <script src="./js/burgermenu.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

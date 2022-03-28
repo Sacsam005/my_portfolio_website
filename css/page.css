@@ -1,0 +1,56 @@
+.cover {
+  position: fixed;
+  background-color: teal;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  left: -100%;
+  z-index: 10000;
+}
+
+.transition.slide .cover1 {
+  background: #c0c0aa;
+  background: -webkit-gradient(linear, left top, right top, from(#1cefff), to(#c0c0aa));
+  background: linear-gradient(to right, #1cefff, #c0c0aa);
+  -webkit-animation: slide 0.3s ease-in-out forwards;
+          animation: slide 0.3s ease-in-out forwards;
+}
+
+.transition.slide .cover2 {
+  background: #30e8bf;
+  background: -webkit-gradient(linear, left top, right top, from(#ff8235), to(#30e8bf));
+  background: linear-gradient(to right, #ff8235, #30e8bf);
+  -webkit-animation: slide 0.3s ease-in-out forwards;
+          animation: slide 0.3s ease-in-out forwards;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.transition.slide .cover3 {
+  background: #ffafbd;
+  background: -webkit-gradient(linear, left top, right top, from(#ffc3a0), to(#ffafbd));
+  background: linear-gradient(to right, #ffc3a0, #ffafbd);
+  -webkit-animation: slide 0.3s ease-in-out forwards;
+          animation: slide 0.3s ease-in-out forwards;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+@-webkit-keyframes slide {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}
+/*# sourceMappingURL=page.css.map */

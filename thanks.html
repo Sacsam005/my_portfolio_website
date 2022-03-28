@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="./img/profile1.png" />
+    <link rel="apple-touch-icon" href="./img/profile1.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Thank You</title>
+</head>
+
+<style>
+    body {
+        overflow: auto;
+        font-family: 'Abel';
+    }
+
+    img {
+        position: absolute;
+        object-fit: cover;
+    }
+
+    h1 {
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+    }
+</style>
+
+<body>
+    <img src="./img/thanks.jpg" alt="Thank You" width="100%" height="100%" data-aos="fade-in">
+    <h1 data-aos="fade-down">You've successfully submitted.</h1>
+
+    <!-- Animation on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            duration: 2000, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+    <!-- End of Animation on scroll -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
