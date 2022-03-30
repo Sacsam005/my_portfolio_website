@@ -1,32 +1,46 @@
-// Auto typing text effect
-var typed = new Typed(".result", {
-  strings: [
-    "Sachin Samal",
-    "an Aspirant",
-    "a Front-end Developer",
-    "a Front-end Engineer",
-    "a Web-Designer",
-  ],
-  typeSpeed: 75,
-  backSpeed: 60,
-  loop: true,
-});
+// loader animation
+const loader = document.getElementById('loader');
+const transition = document.querySelector('.transition')
 
-// Certificates slider
-let mainImg = document.getElementById('main-img');
-let smallImg = document.getElementsByClassName('small-img');
+window.addEventListener("load", () => {
+  loader.style.display = "none";
 
-smallImg[0].onclick = function () {
-  mainImg.src = smallImg[0].src;
-}
+})
+transition.classList.add('slide');
+setTimeout(() => {
+  transition.classList.remove('slide');
+}, 1500);
 
-smallImg[1].onclick = function () {
-  mainImg.src = smallImg[1].src;
-}
+// Hamburger menu
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
-smallImg[2].onclick = function () {
-  mainImg.src = smallImg[2].src;
-}
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+})
+
+document.querySelectorAll('.nav-link').forEach(link => link.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}))
+
+
+// progress bar
+window.onscroll = () => {
+  let maxHeight = window.document.body.scrollHeight - window.innerHeight;
+  let percentage = ((window.scrollY) / maxHeight) * 100;
+  document.querySelector('#home .scroll-indicator').style.width = percentage + '%';
+};
+
+// Custom Cursor
+let cursor = document.querySelector('.cursor');
+
+window.onmousemove = (e) => {
+  cursor.style.top = e.pageY + 'px';
+  cursor.style.left = e.pageX + 'px';
+};
+
 
 
 

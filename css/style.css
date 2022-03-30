@@ -12,8 +12,9 @@
 }
 
 body {
+  width: 100%;
   background: #002147 !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 html::-webkit-scrollbar {
@@ -208,13 +209,13 @@ a.nav-link {
   transition: 0.5s;
 }
 
-a.nav-link::before {
+/* a.nav-link::before {
   width: 500%;
 }
 
 a.nav-link::after {
   width: 500%;
-}
+} */
 
 .hamburger {
   display: none;

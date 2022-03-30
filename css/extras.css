@@ -328,6 +328,13 @@ span {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .main-grid h3 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}
+
 @media screen and (max-width: 680px) {
   .timeline-label img {
     width: 100%;
@@ -364,20 +371,19 @@ span {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .main-grid h3 {
-    font-size: 1.5rem;
-    text-align: left;
+@media screen and (max-width: 500px) {
+  .main-grid {
+    padding: 1rem 1rem;
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
   img {
     width: 100%;
   }
 
   .main-grid {
-    padding: 1rem 1rem;
+    padding: 1rem 0.5rem;
   }
 
   .main-grid h3 {
