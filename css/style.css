@@ -12,9 +12,8 @@
 }
 
 body {
-  width: 100%;
   background: #002147 !important;
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {

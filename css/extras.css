@@ -1,11 +1,12 @@
 body {
   overflow-x: hidden;
+  min-width: 100%;
 }
 
 /* Work experience */
 #experience {
   margin-top: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .timeline-label img {
@@ -170,7 +171,8 @@ body {
 .timeline-experience-info,
 #second p,
 .timeline-experience-img img,
-.timeline-role {
+.timeline-role,
+h5 {
   background: transparent !important;
 }
 
@@ -374,6 +376,11 @@ span {
 @media screen and (max-width: 500px) {
   .main-grid {
     padding: 1rem 1rem;
+  }
+
+  .timeline .timeline-experience {
+    margin-left: 0;
+    padding-left: 0;
   }
 }
 
