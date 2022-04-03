@@ -118,7 +118,7 @@ h4 {
 }
 
 .active {
-  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
 }
 
 .asset-section,
@@ -258,6 +258,10 @@ footer span {
   background-repeat: no-repeat;
   background-position: left bottom;
   transition: 500ms ease;
+}
+
+a.nav-link {
+  background-position: left top;
 }
 
 .grid-item:hover,
