@@ -208,14 +208,6 @@ a.nav-link {
   transition: 0.5s;
 }
 
-/* a.nav-link::before {
-  width: 500%;
-}
-
-a.nav-link::after {
-  width: 500%;
-} */
-
 .hamburger {
   display: none;
 }
@@ -289,6 +281,13 @@ footer span:hover {
   margin: 1vmin;
 }
 /* end of navbar */
+
+/* Codepen iframe  */
+iframe {
+  height: 500px;
+  padding: 2rem;
+  border-top: red;
+}
 
 /* Section Main */
 span.result {

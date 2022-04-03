@@ -304,6 +304,7 @@
   .active {
     left: 0;
     z-index: 999;
+    transition: 0.2s ease;
   }
 
   a.nav-link {
@@ -321,7 +322,6 @@
     width: 75%;
     min-height: 60vh;
     margin: 0 auto;
-    padding-top: 0.5rem;
   }
 
   .circle1 {
