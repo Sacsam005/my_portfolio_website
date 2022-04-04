@@ -33,13 +33,7 @@ window.onscroll = () => {
   document.querySelector('#home .scroll-indicator').style.width = percentage + '%';
 };
 
-// Custom Cursor
-let cursor = document.querySelector('.cursor');
 
-window.onmousemove = (e) => {
-  cursor.style.top = e.pageY + 'px';
-  cursor.style.left = e.pageX + 'px';
-};
 
 
 

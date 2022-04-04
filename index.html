@@ -30,10 +30,6 @@
 </head>
 
 <body>
-  <!-- Custom cursor  -->
-  <img src="./img/cursor.png" class="cursor" alt="Cursor">
-  <!-- Custom cursor  -->
-
   <!-- Page Transition -->
   <div class="transition">
     <div class="cover cover1"></div>
@@ -535,42 +531,50 @@
     <div class="container text-center" id="demos">
       <h1 class="text-center" data-aos="fade-down">DUMMY PR0JECTS DEMO</h1>
       <div class="row">
-        <div class="col-md-4 col-sm-12 gif-card" data-aos="fade-down">
-          <div class="text-box">
-            <span class="dots"></span>
-            <span class="dots"></span>
-            <span class="dots"></span>
+        <div class="col-md-4 col-sm-12">
+          <div class="gif-grid">
+            <div class="text-box">
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+            </div>
+            <div class="pic">
+              <img src="./img/vid1.gif" alt="Gif" data-aos="fade-in">
+            </div>
           </div>
-          <div class="gif">
-            <img src="./img/vid1.gif" alt="Gif" data-aos="fade-in">
-          </div>
+        </div>
 
+        <div class="col-md-4 col-sm-12">
+          <div class="gif-grid">
+            <div class="text-box">
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+            </div>
+            <div class="pic">
+              <img src="./img/vid3.gif" alt="Gif" data-aos="fade-in">
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-12 gif-card" data-aos="fade-down">
-          <div class="text-box">
-            <span class="dots"></span>
-            <span class="dots"></span>
-            <span class="dots"></span>
-          </div>
-          <div class="gif">
-            <img src="./img/vid3.gif" alt="Gif" data-aos="fade-in">
-          </div>
 
-        </div>
-        <div class="col-md-4 col-sm-12 gif-card" data-aos="fade-down">
-          <div class="text-box">
-            <span class="dots"></span>
-            <span class="dots"></span>
-            <span class="dots"></span>
+        <div class="col-md-4 col-sm-12">
+          <div class="gif-grid">
+            <div class="text-box">
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+            </div>
+            <div class="pic">
+              <img src="./img/vid2.gif" alt="Gif" data-aos="fade-in">
+            </div>
           </div>
-          <div class="gif">
-            <img src="./img/vid2.gif" alt="Gif" data-aos="fade-in">
-          </div>
         </div>
+
       </div>
     </div>
   </section>
   <!-- End of Demo Projects Section -->
+
 
   <!-- Achievements Section -->
   <section id="achievements">
@@ -717,7 +721,7 @@
     AOS.init({
       once: true,
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-      duration: 1500 // values from 0 to 3000, with step 50ms
+      duration: 1200 // values from 0 to 3000, with step 50ms
     });
   </script>
   <!-- End of Animation on scroll -->
