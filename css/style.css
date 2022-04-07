@@ -364,7 +364,7 @@ svg {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding-top: 3rem;
 }
 
 h1.text-skills {
