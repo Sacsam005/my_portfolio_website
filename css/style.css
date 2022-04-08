@@ -50,21 +50,6 @@ html::-webkit-scrollbar-thumb {
   -webkit-box-shadow: 0px 4px 10px rgba(52, 72, 115, 0.35);
 }
 
-*:active > .cursor {
-  transform: translateX(-40%) rotate(-45deg);
-}
-
-.cursor {
-  position: absolute;
-  height: 2rem;
-  pointer-events: none;
-  top: -5rem;
-  left: -5rem;
-  transform: translateX(-40%);
-  z-index: 10000;
-  background: transparent;
-}
-
 .loading-screen {
   position: relative;
   padding-left: 0;
@@ -121,10 +106,12 @@ h4 {
 }
 
 .skills-section,
-#asset,
-#about-section,
+.asset-section,
+.about-section,
 .career-highlights-section,
 .demo-projects-section,
+.achievements-section,
+.tools,
 .footer-section {
   padding-top: 3rem;
 }
@@ -348,7 +335,6 @@ svg {
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 3rem;
 }
 
 h1.text-skills {
@@ -379,77 +365,6 @@ h1.text-skills {
   }
 }
 /* End of Skills Section */
-
-/* Design Section */
-.career-highlights-section {
-  padding: 1rem;
-}
-
-.career-highlights-section .design-box {
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 1rem;
-  overflow-x: hidden;
-  padding: 1rem 0.5rem 0.5rem 0.5rem;
-}
-
-.design-image {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 30rem;
-  flex: 1 1 30rem;
-}
-
-.design-box:nth-child(2) {
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  padding: 4rem 0;
-}
-
-.design-image img {
-  width: 100%;
-}
-
-.content-box {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 30rem;
-  flex: 1 30rem;
-  padding: 0.75rem 0.75rem;
-}
-
-.content-box h4 {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.content-box p {
-  font-size: 1.5rem;
-  line-height: 2;
-}
-
-a.design-btn {
-  font-size: 1.5rem;
-  color: #fff;
-  list-style: none;
-  padding: 0.75rem 1rem;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
-}
-
-a.design-btn:hover {
-  color: #fff;
-  text-decoration: none;
-  box-shadow: 2px 2px 2px 2px orange;
-}
-/* End of Design Section */
 
 /* Asset Section Styling */
 .grid-container {
@@ -536,6 +451,92 @@ h4.text-center {
 }
 /* About-section ends */
 
+/* Career Highlights Section */
+.career-highlights-section .design-box {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow-x: hidden;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.design-image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+  flex: 1 1 30rem;
+}
+
+.design-box:nth-child(2) {
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+  padding: 4rem 0;
+}
+
+.design-image img {
+  width: 100%;
+}
+
+.design-overflow-images {
+  width: auto;
+  height: 30rem;
+  overflow-y: scroll;
+}
+
+.design-overflow-images::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.design-overflow-images::-webkit-scrollbar-track {
+  background: #ce2cc7;
+}
+
+.design-overflow-images::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 5rem;
+}
+
+.content-box {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 30rem;
+  flex: 1 30rem;
+  padding: 0.75rem 0.75rem;
+}
+
+.content-box h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.content-box p {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+a.design-btn {
+  font-size: 1.5rem;
+  color: #fff;
+  list-style: none;
+  padding: 0.75rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+}
+
+a.design-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px 2px orange;
+}
+/* End of Career Highlights Section */
+
 /* Demo Section */
 .demo-projects-section img {
   width: 100%;
@@ -596,7 +597,6 @@ h4.text-center {
 /* Achievements-section */
 #achievements-section {
   width: 100%;
-  padding-top: 2rem;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -606,19 +606,19 @@ h4.text-center {
   width: 90%;
   overflow: hidden;
   margin: 0 auto;
+  transition: 0.5s ease;
 }
 /* End of Achievements-section */
 
 /* Tools Section */
-.article-section {
+.tools {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   gap: 2.5rem;
-  padding: 3rem 1rem 0 1rem;
 }
 
-.article-section .card {
+.tools .card {
   width: 100%;
   height: auto;
 }
@@ -1184,7 +1184,6 @@ p.text-center a {
 /* Fixed Circle for Blog and Projects webpages*/
 img.fixed-circle {
   width: 100vw;
-  height: auto;
 }
 
 .fixed-circle {
