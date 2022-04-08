@@ -1184,6 +1184,7 @@ p.text-center a {
 /* Fixed Circle for Blog and Projects webpages*/
 img.fixed-circle {
   width: 100vw;
+  height: auto;
 }
 
 .fixed-circle {
