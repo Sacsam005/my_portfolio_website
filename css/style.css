@@ -35,8 +35,7 @@ html::-webkit-scrollbar-thumb {
   left: 0;
   height: 0.15rem;
   z-index: 1000;
-  border-radius: 5rem;
-  background: orange;
+  background: #d32cca;
 }
 
 #home {
@@ -101,8 +100,9 @@ h4 {
   font-size: 1.5rem;
 }
 
-.active {
+.active-link {
   border-bottom: 2px solid orange;
+  opacity: 0.75;
 }
 
 .skills-section,
@@ -192,6 +192,11 @@ a.nav-link {
   transition: 0.5s;
 }
 
+.nav-item i {
+  color: orange;
+  opacity: 0.75;
+}
+
 .hamburger {
   display: none;
 }
@@ -229,7 +234,7 @@ p::first-letter,
 .sitemap .nav-item a,
 a.nav-link,
 footer span {
-  background-image: linear-gradient(90deg, red, blue);
+  background-image: linear-gradient(90deg, #d32cca, blue);
   background-size: 0% 1px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -502,7 +507,6 @@ h4.text-center {
 
 .design-overflow-images::-webkit-scrollbar-thumb {
   background: orange;
-  border-radius: 5rem;
 }
 
 .content-box {
@@ -715,7 +719,7 @@ pre code {
 }
 
 .social i:hover {
-  color: cyan !important;
+  color: orange !important;
 }
 
 .fa-arrow-right {

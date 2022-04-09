@@ -9,10 +9,6 @@
     margin: 2vmin;
   }
 
-  .skills-section img {
-    width: 60%;
-  }
-
   .portfolio-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -23,8 +19,8 @@
     text-align: center;
   }
 
-  #about {
-    margin-top: -1rem;
+  .skills-section img {
+    width: 60%;
   }
 
   .col-md-4.card-body ul {
@@ -143,6 +139,10 @@
     padding: 0 2rem;
   }
 
+  .active-link {
+    opacity: 1;
+  }
+
   .hamburger {
     display: block;
   }
@@ -227,6 +227,11 @@
     font-size: 1.5rem;
   }
 
+  h1.text-skills {
+    font-size: 13rem;
+    opacity: 0.9;
+  }
+
   .grid-container,
   .col-md-4 {
     margin-top: 2rem;
@@ -249,26 +254,6 @@
     width: auto;
     font-size: 1.25rem;
     padding: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  h1.text-skills {
-    font-size: 13rem;
-    opacity: 0.9;
-  }
-}
-
-@media screen and (max-width: 550px) and (max-height: 750px) {
-  .tools {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .content button {
-    width: auto;
-    font-size: 1.5rem;
   }
 }
 
@@ -298,7 +283,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    align-items: center;
   }
 
   .content-box h4,
