@@ -9,6 +9,10 @@ body {
   background-color: #002147;
 }
 
+iframe {
+  height: 250px !important;
+}
+
 .grid-project {
   width: 100%;
   height: auto;
