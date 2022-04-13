@@ -121,6 +121,7 @@ h4 {
   margin-top: 1rem;
 }
 
+/* Chatbot styling */
 #chat-bot-launcher-container.chat-bot-avatar-launcher .chat-bot-launcher-button {
   box-shadow: 2px 2px 2px 2px orange !important;
   text-decoration: none;
@@ -136,6 +137,13 @@ h4 {
   background: transparent;
 }
 
+#chat-bot-frame-wrap {
+  border: 1px solid #fff !important;
+}
+
+#chat-bot-frame-container {
+  border-radius: 7px !important;
+}
 /* End of General Styling */
 
 /* Navbar */
