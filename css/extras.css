@@ -329,10 +329,15 @@ span {
 }
 
 @media screen and (max-width: 680px) {
+  .container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
   .timeline-label img {
     width: 100%;
     align-items: center;
   }
+
   .main-grid {
     width: 100%;
     height: 100%;
@@ -354,7 +359,7 @@ span {
   }
 
   .box {
-    padding: 0 1.5rem;
+    padding: 0 0.5rem;
   }
 
   .main-grid h3 {
