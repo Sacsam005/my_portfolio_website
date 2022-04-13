@@ -27,6 +27,7 @@ span {
 }
 
 .blog-item h3 {
+  color: #000;
   font-weight: 700;
 }
 
@@ -43,31 +44,11 @@ span {
   padding-left: 3rem;
 }
 
-.card-body {
-  width: 100%;
-  height: auto;
-}
-
-.card-img img {
-  width: 80%;
-  height: 250px;
-  margin: 0 auto;
-  box-shadow: inset 5px 10px 20px #002147, inset -5px -10px 20px #002147;
-}
-
-.card-title {
-  display: block;
-}
-
-.blog-cards a,
-.card-title h2,
-.card-title p {
+.blog-cards a {
   text-decoration: none;
   list-style: none;
 }
 
-.card-title h2,
-.card-title p,
 .blog-item h3 {
   background-image: linear-gradient(90deg, #d32cca, blue);
   background-size: 0% 2px;
@@ -76,8 +57,6 @@ span {
   transition: background-size 500ms ease;
 }
 
-.card-title h2:hover,
-.card-title p:hover,
 .blog-item h3:hover {
   background-size: 100% 2px;
 }
@@ -133,7 +112,7 @@ a.button:hover {
   width: 100%;
 }
 
-@media only screen and (max-width: 1254px) {
+@media only screen and (max-width: 1300px) {
   #blog-section .container {
     width: 100%;
   }
@@ -147,6 +126,7 @@ a.button:hover {
 .blog-section-intro h3 {
   font-size: 2rem;
   line-height: 1;
+  font-weight: 700;
 }
 
 .blog-section-intro p {
@@ -322,16 +302,12 @@ a.button:hover {
 }
 
 .blog-item:hover h3 {
-  color: #272c42;
+  color: #faf3d9;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
   #blog-section {
-    padding: 3.5rem 1rem;
-  }
-
-  .blog-item-content p {
-    font-size: 1.5rem;
+    padding: 3.5rem 0;
   }
 
   .blog-item-content p {
@@ -346,28 +322,10 @@ a.button:hover {
     height: auto;
     padding-left: 0;
   }
-
-  .card-img img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    box-shadow: inset 5px 10px 20px #002147, inset -5px -10px 20px #002147;
-  }
-
-  .card-title h2 {
-    font-size: 2rem;
-  }
-  .card-title p {
-    font-size: 1.5rem;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   .blog-cards {
     padding-left: 0;
-  }
-
-  .card-img img {
-    width: 100%;
   }
 }

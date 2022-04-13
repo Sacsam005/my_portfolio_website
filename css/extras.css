@@ -81,22 +81,22 @@ body {
 }
 
 #first h5,
-#first p,
+#first .timeline-role,
 #second h5,
-#second p {
-  background-size: 0% 1px;
+#second .timeline-role {
+  background-size: 0% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
   transition: 500ms ease;
 }
 
 #first h5,
-#first p {
+#first .timeline-role {
   background-image: linear-gradient(90deg, #ffc0ff, #a060c5, #d38ff8);
 }
 
 #second h5,
-#second p {
+#second .timeline-role {
   background-image: linear-gradient(90deg, #7ee58b, #018131, #4ab25d);
 }
 
@@ -152,10 +152,10 @@ body {
 }
 
 .timeline-experience-img:hover ~ #first h5,
-.timeline-experience-img:hover ~ #first p,
+.timeline-experience-img:hover ~ #first .timeline-role,
 .timeline-experience-img:hover ~ #second h5,
-.timeline-experience-img:hover ~ #second p {
-  background-size: 100% 2px;
+.timeline-experience-img:hover ~ #second .timeline-role {
+  background-size: 100% 2px !important;
 }
 
 .timeline-experience-info {
@@ -166,16 +166,6 @@ body {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
-.timeline-experience,
-.timeline-experience-info,
-#second p,
-.timeline-experience-img img,
-.timeline-role,
-h5 {
-  background: transparent !important;
-}
-
 /* End about work experience */
 
 main {
@@ -220,7 +210,7 @@ img.fixed-circle {
 
 span {
   color: orange;
-  font-weight: bold;
+  font-weight: 700;
   background: transparent;
 }
 
@@ -267,6 +257,7 @@ span {
   background: url(../img/wave.png) repeat-x;
   background-size: 250rem 30rem;
   animation: wave 10s linear infinite;
+  z-index: 1;
 }
 
 @keyframes wave {

@@ -1,11 +1,15 @@
+* {
+  box-sizing: border-box;
+  background-color: #002147;
+}
+
 body {
   background: #002147;
   overflow-x: hidden;
 }
 
-* {
-  box-sizing: border-box;
-  background-color: #002147;
+.card-title h2 {
+  font-weight: 700;
 }
 
 iframe {
@@ -28,7 +32,8 @@ iframe {
       list-style: none;
     }
   }
-  .card-title {
+  .card-title h2,
+  .card-title p {
     background-image: linear-gradient(90deg, #d32cca, blue);
     background-size: 0% 2px;
     background-repeat: no-repeat;
@@ -159,6 +164,10 @@ iframe {
       line-height: 1.5;
     }
   }
+
+  .card-img img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -169,7 +178,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0.5rem;
   }
 
   #project-section {
@@ -181,6 +190,18 @@ iframe {
         }
       }
     }
+  }
+
+  .card-body,
+  #blog-section {
+    padding: 0 !important;
+  }
+
+  .card-title h2 {
+    font-size: 2rem;
+  }
+  .card-title p {
+    font-size: 1.5rem;
   }
 }
 

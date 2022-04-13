@@ -102,7 +102,7 @@ h4 {
 
 .active-link {
   border-bottom: 2px solid orange;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 .skills-section,
@@ -614,7 +614,7 @@ a.design-btn:hover {
 }
 /* End of Achievements-section */
 
-/* Tools Section */
+/* Tools Section for Project Html*/
 .tools {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -629,6 +629,11 @@ a.design-btn:hover {
 
 #item1.card {
   height: 55%;
+}
+
+#item1 h3,
+#item2 h3 {
+  font-weight: 700;
 }
 
 #item1.card a,
@@ -656,6 +661,10 @@ p {
   font-size: 1.4rem;
 }
 
+.content button:not(.disable):hover {
+  box-shadow: none;
+}
+
 pre code {
   color: #fff !important;
   text-decoration: none;
@@ -676,11 +685,15 @@ pre code {
 }
 
 .small-icons i:hover {
-  color: cyan !important;
+  color: orange !important;
 }
-/* End of Tools section */
+/* End of Tools section for Project Html*/
 
 /* Footer */
+footer h3 {
+  font-weight: 700;
+}
+
 .footer-section {
   width: 100%;
   height: auto;
