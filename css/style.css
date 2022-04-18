@@ -93,7 +93,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 2px 2px 2px orange;
+  box-shadow: 0px 4px 5px orange;
 }
 
 h4 {
@@ -545,7 +545,7 @@ a.design-btn {
 a.design-btn:hover {
   color: #fff;
   text-decoration: none;
-  box-shadow: 2px 2px 2px 2px orange;
+  box-shadow: 0px 4px 5px orange;
 }
 /* End of Career Highlights Section */
 
