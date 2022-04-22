@@ -105,24 +105,10 @@ iframe {
         background-repeat: no-repeat;
         background-position: right bottom;
         transition: 500ms ease;
-        opacity: 0.75;
+        color: #555;
         &:hover {
           background-size: 100% 2px;
-        }
-        &:nth-child(1) {
-          color: #d32cca;
-        }
-        &:nth-child(2) {
-          color: #8effa1;
-        }
-        &:nth-child(3) {
-          color: #fbd786;
-        }
-        &:nth-child(4) {
-          color: #50d9eed3;
-        }
-        &:nth-child(5) {
-          color: #a977c8;
+          color: #fff;
         }
       }
     }
@@ -150,6 +136,9 @@ iframe {
   height: 200px;
 }
 
+.small-icons i {
+  color: #555 !important;
+}
 @media (max-width: 991px) {
   #project-section {
     .project-grid {

@@ -140,31 +140,12 @@ iframe {
   background-position: right bottom;
   -webkit-transition: 500ms ease;
   transition: 500ms ease;
-  opacity: 0.75;
+  color: #555;
 }
 
 #project-section .project-grid .project-list a:hover {
   background-size: 100% 2px;
-}
-
-#project-section .project-grid .project-list a:nth-child(1) {
-  color: #d32cca;
-}
-
-#project-section .project-grid .project-list a:nth-child(2) {
-  color: #8effa1;
-}
-
-#project-section .project-grid .project-list a:nth-child(3) {
-  color: #fbd786;
-}
-
-#project-section .project-grid .project-list a:nth-child(4) {
-  color: #50d9eed3;
-}
-
-#project-section .project-grid .project-list a:nth-child(5) {
-  color: #a977c8;
+  color: #fff;
 }
 
 .card-body-one {
@@ -186,6 +167,10 @@ iframe {
 .blog-item-content {
   padding: 1rem 1rem;
   height: 200px;
+}
+
+.small-icons i {
+  color: #555 !important;
 }
 
 @media (max-width: 991px) {
