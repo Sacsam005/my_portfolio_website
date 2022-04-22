@@ -140,12 +140,13 @@ iframe {
   background-position: right bottom;
   -webkit-transition: 500ms ease;
   transition: 500ms ease;
-  color: #555;
+  color: #fff;
+  opacity: 0.6;
 }
 
 #project-section .project-grid .project-list a:hover {
   background-size: 100% 2px;
-  color: #fff;
+  opacity: 1;
 }
 
 .card-body-one {

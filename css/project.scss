@@ -105,10 +105,11 @@ iframe {
         background-repeat: no-repeat;
         background-position: right bottom;
         transition: 500ms ease;
-        color: #555;
+        color: #fff;
+        opacity: 0.6;
         &:hover {
           background-size: 100% 2px;
-          color: #fff;
+          opacity: 1;
         }
       }
     }
