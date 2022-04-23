@@ -414,7 +414,7 @@ span {
   }
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 1280px) {
   main {
     background-size: cover;
   }
