@@ -739,13 +739,21 @@ footer h3 {
   color: rgba(228, 148, 0, 0.733);
 }
 
+input#email {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
 form input.form-control {
   color: #002147 !important;
   border-radius: 10px;
 }
 
 form input::placeholder {
-  color: #002147 !important;
+  color: #555 !important;
+  font-weight: 700;
+  opacity: 0.5 !important;
 }
 
 footer p.text-center {
