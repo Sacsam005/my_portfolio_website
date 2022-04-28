@@ -58,8 +58,12 @@ form .half .item input {
 .item input#name,
 .item input#email {
   color: #fff !important;
-  font-family: 'Caudex';
   resize: none;
+  font-weight: 700;
+}
+
+.full #message {
+  font-weight: normal;
 }
 
 form .full {
@@ -78,7 +82,6 @@ form .full textarea {
 }
 
 ::placeholder {
-  color: #fff !important;
   opacity: 0.4;
 }
 
@@ -115,8 +118,9 @@ form .action input[type='submit']:hover,
   box-shadow: 0px 4px 5px orange;
 }
 
-.half .item input:focus {
-  background: #777;
+.half .item input:focus,
+.full textarea:focus {
+  background: #0a4663;
 }
 
 @media (max-width: 500px) {
