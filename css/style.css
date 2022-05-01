@@ -4,14 +4,14 @@
 * {
   font-family: 'Genos';
   height: auto;
-  background: #002147;
+  background: #005c97;
   color: #ccd3da;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
 body {
-  background: #002147 !important;
+  background: #005c97 !important;
   overflow-x: hidden;
 }
 
@@ -128,7 +128,7 @@ h4 {
 }
 
 #chat-bot-message-container .chat-bot-message-label {
-  background: #002147 !important;
+  background: #005c97 !important;
   padding: 10px !important;
 }
 
@@ -150,7 +150,7 @@ h4 {
 nav {
   height: auto;
   width: 100%;
-  background: #002147;
+  background: #005c97;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex !important;
@@ -233,7 +233,7 @@ p::first-letter,
 .sitemap .nav-item a,
 a.nav-link,
 footer span {
-  background-image: linear-gradient(90deg, #d32cca, blue);
+  background-image: linear-gradient(90deg, #964b92, #964b92);
   background-size: 0% 1px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -672,7 +672,7 @@ pre code {
 #item1.card,
 #item2.card {
   padding-left: 0.5rem;
-  background: #002147;
+  background: #005c97;
   text-align: start;
   box-shadow: 0.5px 0.5px orange;
   line-height: 2rem;
@@ -696,7 +696,7 @@ footer h3 {
 .footer-section {
   width: 100%;
   height: auto;
-  background: #002147;
+  background: #005c97;
   overflow-x: hidden;
 }
 
@@ -747,7 +747,7 @@ input#email {
 }
 
 form input.form-control {
-  color: #002147 !important;
+  color: #005c97 !important;
   border-radius: 10px;
 }
 
