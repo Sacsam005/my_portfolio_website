@@ -8,7 +8,7 @@ h3,
 p,
 span {
   background-color: transparent;
-  color: #ccd3da;
+  color: #fff;
 }
 
 .blog-section-intro h3 {
@@ -75,7 +75,7 @@ a.button {
   -webkit-border-radius: 0;
   border-radius: 0;
   border: 1px solid;
-  border-color: #ccd3da;
+  border-color: #fff;
   text-decoration: none;
   text-transform: none;
   text-shadow: none;
@@ -93,7 +93,7 @@ a.button {
 }
 
 a.button:hover {
-  color: #ccd3da !important;
+  color: #fff !important;
   background: orange;
   border-color: #1c1c45;
   text-decoration: none !important;
@@ -178,7 +178,7 @@ a.button:hover {
   top: 50%;
   display: inline-block;
   font-family: 'FontAwesome';
-  color: #ccd3da;
+  color: #fff;
   font-size: 50px;
   line-height: 19px;
   -webkit-transform: translateY(-50%) translateX(-50%);
@@ -245,7 +245,7 @@ a.button:hover {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #ccd3da;
+  color: #fff;
   text-transform: uppercase;
   background-color: #e2002b;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
