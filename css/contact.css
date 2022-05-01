@@ -1,5 +1,5 @@
 body {
-  background: #005C97;
+  background: #005c97;
   height: 100vh;
   overflow-x: hidden;
   color: #fff;
@@ -82,7 +82,8 @@ form .full textarea {
 }
 
 ::placeholder {
-  opacity: 0.4;
+  opacity: 0.75;
+  font-weight: 700;
 }
 
 form .action {
@@ -120,7 +121,7 @@ form .action input[type='submit']:hover,
 
 .half .item input:focus,
 .full textarea:focus {
-  background: #0a4663;
+  background: #005790;
 }
 
 .form-inline {

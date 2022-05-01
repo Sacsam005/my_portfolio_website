@@ -144,6 +144,10 @@ h4 {
 #chat-bot-frame-container {
   border-radius: 7px !important;
 }
+
+#chat-bot-launcher-container {
+  background: transparent !important;
+}
 /* End of General Styling */
 
 /* Navbar */
@@ -233,7 +237,7 @@ p::first-letter,
 .sitemap .nav-item a,
 a.nav-link,
 footer span {
-  background-image: linear-gradient(90deg, #964b92, #964b92);
+  background-image: linear-gradient(90deg, #d32cca, #d32cca);
   background-size: 0% 1px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -255,7 +259,7 @@ footer span:hover {
 
 .content-box h4,
 .content-box p {
-  background-image: linear-gradient(90deg, red, orange, orange);
+  background-image: linear-gradient(90deg, #d32cca, orange, orange);
   background-size: 100% 0.5px;
   background-repeat: no-repeat;
 }
@@ -752,7 +756,7 @@ form input.form-control {
 }
 
 form input::placeholder {
-  color: #555 !important;
+  color: #9b9990 !important;
   font-weight: 700;
   opacity: 0.5 !important;
 }
