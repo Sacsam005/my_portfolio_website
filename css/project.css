@@ -43,8 +43,8 @@ iframe {
 
 .grid-project .card-title h2,
 .grid-project .card-title p {
-  background-image: -webkit-gradient(linear, left top, right top, from(#964b92), to(#964b92));
-  background-image: linear-gradient(90deg, #964b92, #964b92);
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), to(orange));
+  background-image: linear-gradient(90deg, orange, orange);
   background-size: 0% 2px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -133,8 +133,8 @@ iframe {
   line-height: 2;
   font-weight: 700;
   text-align: right;
-  background-image: -webkit-gradient(linear, left top, right top, from(#964b92), to(#964b92));
-  background-image: linear-gradient(90deg, #964b92, #964b92);
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), to(orange));
+  background-image: linear-gradient(90deg, orange, orange);
   background-size: 0% 2px;
   background-repeat: no-repeat;
   background-position: right bottom;

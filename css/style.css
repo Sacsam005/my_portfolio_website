@@ -237,7 +237,7 @@ p::first-letter,
 .sitemap .nav-item a,
 a.nav-link,
 footer span {
-  background-image: linear-gradient(90deg, #d32cca, #d32cca);
+  background-image: linear-gradient(90deg, orange, orange);
   background-size: 0% 1px;
   background-repeat: no-repeat;
   background-position: left bottom;
