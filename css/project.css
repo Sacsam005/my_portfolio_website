@@ -1,11 +1,11 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #4A00E0;
+  background: #4a00e0;
 }
 
 body {
-  background: #4A00E0;
+  background: #4a00e0;
   overflow-x: hidden;
 }
 
