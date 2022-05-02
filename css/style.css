@@ -4,14 +4,14 @@
 * {
   font-family: 'Exo', sans-serif;
   height: auto;
-  background: #005c97;
+  background: #0052D4;
   color: #fff;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
 body {
-  background: #005c97 !important;
+  background: #0052D4 !important;
   overflow-x: hidden;
 }
 
@@ -128,7 +128,7 @@ h3 {
 }
 
 #chat-bot-message-container .chat-bot-message-label {
-  background: #005c97 !important;
+  background: #0052D4 !important;
   padding: 10px !important;
 }
 
@@ -158,7 +158,7 @@ h3 {
 nav {
   height: auto;
   width: 100%;
-  background: #005c97;
+  background: #0052D4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex !important;
@@ -675,7 +675,7 @@ pre code {
 #item1.card,
 #item2.card {
   padding-left: 0.5rem;
-  background: #005c97;
+  background: #0052D4;
   text-align: start;
   box-shadow: 0.5px 0.5px orange;
   line-height: 2rem;
@@ -700,7 +700,7 @@ footer h3 {
 .footer-section {
   width: 100%;
   height: auto;
-  background: #005c97;
+  background: #0052D4;
   overflow-x: hidden;
 }
 
@@ -751,7 +751,7 @@ input#email {
 }
 
 form input.form-control {
-  color: #005c97 !important;
+  color: #0052D4 !important;
   border-radius: 10px;
 }
 
