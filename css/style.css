@@ -88,7 +88,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
   color: #fff;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   border-style: none !important;
 }
 
@@ -97,7 +97,7 @@ button:hover {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .active-link {
@@ -191,14 +191,6 @@ nav {
   justify-content: space-around;
 }
 
-a.nav-link {
-  color: white;
-  text-decoration: none;
-  font-size: 1.25rem;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
 .nav-item i {
   color: orange;
   opacity: 0.75;
@@ -223,7 +215,7 @@ a.nav-link {
 
 .navbar ul li,
 #uppercase {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: #fff;
   font-weight: 700;
 }
@@ -323,7 +315,7 @@ span.result {
 .btn-info {
   background: transparent !important;
   margin: 1rem 0;
-  font-size: 1.25rem !important;
+  font-size: 1.2rem !important;
 }
 
 p.text-center {
@@ -423,7 +415,7 @@ h1.text-skills {
 
 div.grid-container .grid-item a {
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   text-decoration: none;
   line-height: 1.25;
 }
@@ -436,7 +428,7 @@ h1.text-center {
 }
 
 h3.text-center {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 h1.text-center:hover {
@@ -460,7 +452,7 @@ h1.text-center:hover {
   list-style-type: none;
   color: #fff;
   margin: auto;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 2;
 }
 /* About-section ends */
@@ -532,12 +524,12 @@ h1.text-center:hover {
 }
 
 .content-box p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 2;
 }
 
 a.design-btn {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: #fff;
   list-style: none;
   padding: 0.75rem 1rem;
@@ -668,7 +660,7 @@ p {
 .content button {
   max-width: 95%;
   width: auto;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .content button:not(.disable):hover {
@@ -701,7 +693,7 @@ pre code {
 
 /* Footer */
 footer h3 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -721,7 +713,7 @@ footer h3 {
 }
 
 .sitemap .nav-item a {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: #fff;
   line-height: 2;
