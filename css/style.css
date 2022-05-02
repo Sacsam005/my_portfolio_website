@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?&family=Exo:wght@100&family=Genos:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?&family=Exo:wght@200&family=Genos:wght@100&display=swap');
 /* General styling */
 * {
   font-family: 'Exo', sans-serif;
   height: auto;
-  background: #0052D4;
+  background: #0052d4;
   color: #fff;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
 body {
-  background: #0052D4 !important;
+  background: #0052d4 !important;
   overflow-x: hidden;
 }
 
@@ -128,7 +127,7 @@ h3 {
 }
 
 #chat-bot-message-container .chat-bot-message-label {
-  background: #0052D4 !important;
+  background: #0052d4 !important;
   padding: 10px !important;
 }
 
@@ -158,7 +157,7 @@ h3 {
 nav {
   height: auto;
   width: 100%;
-  background: #0052D4;
+  background: #0052d4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex !important;
@@ -675,7 +674,7 @@ pre code {
 #item1.card,
 #item2.card {
   padding-left: 0.5rem;
-  background: #0052D4;
+  background: #0052d4;
   text-align: start;
   box-shadow: 0.5px 0.5px orange;
   line-height: 2rem;
@@ -700,7 +699,7 @@ footer h3 {
 .footer-section {
   width: 100%;
   height: auto;
-  background: #0052D4;
+  background: #0052d4;
   overflow-x: hidden;
 }
 
@@ -751,7 +750,7 @@ input#email {
 }
 
 form input.form-control {
-  color: #0052D4 !important;
+  color: #0052d4 !important;
   border-radius: 10px;
 }
 
