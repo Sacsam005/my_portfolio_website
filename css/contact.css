@@ -1,5 +1,5 @@
 body {
-  background: #4A00E0;
+  background: #5d26c1;
   height: 100vh;
   overflow-x: hidden;
   color: #fff;
@@ -121,7 +121,7 @@ form .action input[type='submit']:hover,
 
 .half .item input:focus,
 .full textarea:focus {
-  background: #0e57cc;
+  background: #592da9;
 }
 
 .form-inline {
