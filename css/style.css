@@ -3,14 +3,14 @@
 * {
   font-family: 'Exo', sans-serif;
   height: auto;
-  background: #0052d4;
+  background: #4a00e0;
   color: #fff;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
 body {
-  background: #0052d4 !important;
+  background: #4a00e0 !important;
   overflow-x: hidden;
 }
 
@@ -84,7 +84,7 @@ ul {
 }
 
 button {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
@@ -127,7 +127,7 @@ h3 {
 }
 
 #chat-bot-message-container .chat-bot-message-label {
-  background: #0052d4 !important;
+  background: #4a00e0 !important;
   padding: 10px !important;
 }
 
@@ -157,7 +157,7 @@ h3 {
 nav {
   height: auto;
   width: 100%;
-  background: #0052d4;
+  background: #4a00e0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex !important;
@@ -323,7 +323,7 @@ p.text-center {
 }
 
 svg {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
 }
 
 #hero-animation {
@@ -532,7 +532,7 @@ a.design-btn {
   color: #fff;
   list-style: none;
   padding: 0.75rem 1rem;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
 }
 
 a.design-btn:hover {
@@ -558,7 +558,7 @@ a.design-btn:hover {
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px, rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
 }
 
 .gif-grid .pic {
@@ -674,7 +674,7 @@ pre code {
 #item1.card,
 #item2.card {
   padding-left: 0.5rem;
-  background: #0052d4;
+  background: #4a00e0;
   text-align: start;
   box-shadow: 0.5px 0.5px orange;
   line-height: 2rem;
@@ -699,7 +699,7 @@ footer h3 {
 .footer-section {
   width: 100%;
   height: auto;
-  background: #0052d4;
+  background: #4a00e0;
   overflow-x: hidden;
 }
 
@@ -750,7 +750,7 @@ input#email {
 }
 
 form input.form-control {
-  color: #0052d4 !important;
+  color: #4a00e0 !important;
   border-radius: 10px;
 }
 
@@ -792,352 +792,352 @@ p.text-center a {
 .zrpfIRpo_0 {
   stroke-dasharray: 901 903;
   stroke-dashoffset: 902;
-  animation: zrpfIRpo_draw 3000ms ease-out 0ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 0ms forwards;
 }
 .zrpfIRpo_1 {
   stroke-dasharray: 736 738;
   stroke-dashoffset: 737;
-  animation: zrpfIRpo_draw 3000ms ease-out 12ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 12ms forwards;
 }
 .zrpfIRpo_2 {
   stroke-dasharray: 150 152;
   stroke-dashoffset: 151;
-  animation: zrpfIRpo_draw 3000ms ease-out 24ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 24ms forwards;
 }
 .zrpfIRpo_3 {
   stroke-dasharray: 164 166;
   stroke-dashoffset: 165;
-  animation: zrpfIRpo_draw 3000ms ease-out 36ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 36ms forwards;
 }
 .zrpfIRpo_4 {
   stroke-dasharray: 31 20;
   stroke-dashoffset: 32;
-  animation: zrpfIRpo_draw 3000ms ease-out 48ms infinite;
+  animation: zrpfIRpo_draw 8000ms ease-out 48ms infinite;
 }
 .zrpfIRpo_5 {
   stroke-dasharray: 295 297;
   stroke-dashoffset: 296;
-  animation: zrpfIRpo_draw 3000ms ease-out 60ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 60ms forwards;
 }
 .zrpfIRpo_6 {
   stroke-dasharray: 253 255;
   stroke-dashoffset: 254;
-  animation: zrpfIRpo_draw 3000ms ease-out 73ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 73ms forwards;
 }
 .zrpfIRpo_7 {
   stroke-dasharray: 52 54;
   stroke-dashoffset: 53;
-  animation: zrpfIRpo_draw 3000ms ease-out 85ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 85ms forwards;
 }
 .zrpfIRpo_8 {
   stroke-dasharray: 21 23;
   stroke-dashoffset: 22;
-  animation: zrpfIRpo_draw 3000ms ease-out 97ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 97ms forwards;
 }
 .zrpfIRpo_9 {
   stroke-dasharray: 25 27;
   stroke-dashoffset: 26;
-  animation: zrpfIRpo_draw 3000ms ease-out 109ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 109ms forwards;
 }
 .zrpfIRpo_10 {
   stroke-dasharray: 39 41;
   stroke-dashoffset: 40;
-  animation: zrpfIRpo_draw 3000ms ease-out 121ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 121ms forwards;
 }
 .zrpfIRpo_11 {
   stroke-dasharray: 29 31;
   stroke-dashoffset: 30;
-  animation: zrpfIRpo_draw 3000ms ease-out 134ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 134ms forwards;
 }
 .zrpfIRpo_12 {
   stroke-dasharray: 19 21;
   stroke-dashoffset: 20;
-  animation: zrpfIRpo_draw 3000ms ease-out 146ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 146ms forwards;
 }
 .zrpfIRpo_13 {
   stroke-dasharray: 252 254;
   stroke-dashoffset: 253;
-  animation: zrpfIRpo_draw 3000ms ease-out 158ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 158ms forwards;
 }
 .zrpfIRpo_14 {
   stroke-dasharray: 634 636;
   stroke-dashoffset: 635;
-  animation: zrpfIRpo_draw 3000ms ease-out 170ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 170ms forwards;
 }
 .zrpfIRpo_15 {
   stroke-dasharray: 456 458;
   stroke-dashoffset: 457;
-  animation: zrpfIRpo_draw 3000ms ease-out 182ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 182ms forwards;
 }
 .zrpfIRpo_16 {
   stroke-dasharray: 63 65;
   stroke-dashoffset: 64;
-  animation: zrpfIRpo_draw 3000ms ease-out 195ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 195ms forwards;
 }
 .zrpfIRpo_17 {
   stroke-dasharray: 558 560;
   stroke-dashoffset: 559;
-  animation: zrpfIRpo_draw 3000ms ease-out 207ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 207ms forwards;
 }
 .zrpfIRpo_18 {
   stroke-dasharray: 9 11;
   stroke-dashoffset: 10;
-  animation: zrpfIRpo_draw 3000ms ease-out 219ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 219ms forwards;
 }
 .zrpfIRpo_19 {
   stroke-dasharray: 480 482;
   stroke-dashoffset: 481;
-  animation: zrpfIRpo_draw 3000ms ease-out 231ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 231ms forwards;
 }
 .zrpfIRpo_20 {
   stroke-dasharray: 265 267;
   stroke-dashoffset: 266;
-  animation: zrpfIRpo_draw 3000ms ease-out 243ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 243ms forwards;
 }
 .zrpfIRpo_21 {
   stroke-dasharray: 15 17;
   stroke-dashoffset: 16;
-  animation: zrpfIRpo_draw 3000ms ease-out 256ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 256ms forwards;
 }
 .zrpfIRpo_22 {
   stroke-dasharray: 15 17;
   stroke-dashoffset: 16;
-  animation: zrpfIRpo_draw 3000ms ease-out 268ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 268ms forwards;
 }
 .zrpfIRpo_23 {
   stroke-dasharray: 15 17;
   stroke-dashoffset: 16;
-  animation: zrpfIRpo_draw 3000ms ease-out 280ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 280ms forwards;
 }
 .zrpfIRpo_24 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 292ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 292ms forwards;
 }
 .zrpfIRpo_25 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 304ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 304ms forwards;
 }
 .zrpfIRpo_26 {
   stroke-dasharray: 21 23;
   stroke-dashoffset: 22;
-  animation: zrpfIRpo_draw 3000ms ease-out 317ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 317ms forwards;
 }
 .zrpfIRpo_27 {
   stroke-dasharray: 21 23;
   stroke-dashoffset: 22;
-  animation: zrpfIRpo_draw 3000ms ease-out 329ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 329ms forwards;
 }
 .zrpfIRpo_28 {
   stroke-dasharray: 33 35;
   stroke-dashoffset: 34;
-  animation: zrpfIRpo_draw 3000ms ease-out 341ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 341ms forwards;
 }
 .zrpfIRpo_29 {
   stroke-dasharray: 46 48;
   stroke-dashoffset: 47;
-  animation: zrpfIRpo_draw 3000ms ease-out 353ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 353ms forwards;
 }
 .zrpfIRpo_30 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 365ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 365ms forwards;
 }
 .zrpfIRpo_31 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 378ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 378ms forwards;
 }
 .zrpfIRpo_32 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 390ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 390ms forwards;
 }
 .zrpfIRpo_33 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 402ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 402ms forwards;
 }
 .zrpfIRpo_34 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 414ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 414ms forwards;
 }
 .zrpfIRpo_35 {
   stroke-dasharray: 12 14;
   stroke-dashoffset: 13;
-  animation: zrpfIRpo_draw 3000ms ease-out 426ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 426ms forwards;
 }
 .zrpfIRpo_36 {
   stroke-dasharray: 39 41;
   stroke-dashoffset: 40;
-  animation: zrpfIRpo_draw 3000ms ease-out 439ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 439ms forwards;
 }
 .zrpfIRpo_37 {
   stroke-dasharray: 65 67;
   stroke-dashoffset: 66;
-  animation: zrpfIRpo_draw 3000ms ease-out 451ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 451ms forwards;
 }
 .zrpfIRpo_38 {
   stroke-dasharray: 29 31;
   stroke-dashoffset: 30;
-  animation: zrpfIRpo_draw 3000ms ease-out 463ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 463ms forwards;
 }
 .zrpfIRpo_39 {
   stroke-dasharray: 29 31;
   stroke-dashoffset: 30;
-  animation: zrpfIRpo_draw 3000ms ease-out 475ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 475ms forwards;
 }
 .zrpfIRpo_40 {
   stroke-dasharray: 29 31;
   stroke-dashoffset: 30;
-  animation: zrpfIRpo_draw 3000ms ease-out 487ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 487ms forwards;
 }
 .zrpfIRpo_41 {
   stroke-dasharray: 19 21;
   stroke-dashoffset: 20;
-  animation: zrpfIRpo_draw 3000ms ease-out 500ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 500ms forwards;
 }
 .zrpfIRpo_42 {
   stroke-dasharray: 55 57;
   stroke-dashoffset: 56;
-  animation: zrpfIRpo_draw 3000ms ease-out 512ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 512ms forwards;
 }
 .zrpfIRpo_43 {
   stroke-dasharray: 39 41;
   stroke-dashoffset: 40;
-  animation: zrpfIRpo_draw 3000ms ease-out 524ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 524ms forwards;
 }
 .zrpfIRpo_44 {
   stroke-dasharray: 55 57;
   stroke-dashoffset: 56;
-  animation: zrpfIRpo_draw 3000ms ease-out 536ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 536ms forwards;
 }
 .zrpfIRpo_45 {
   stroke-dasharray: 71 73;
   stroke-dashoffset: 72;
-  animation: zrpfIRpo_draw 3000ms ease-out 548ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 548ms forwards;
 }
 .zrpfIRpo_46 {
   stroke-dasharray: 39 41;
   stroke-dashoffset: 40;
-  animation: zrpfIRpo_draw 3000ms ease-out 560ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 560ms forwards;
 }
 .zrpfIRpo_47 {
   stroke-dasharray: 39 41;
   stroke-dashoffset: 40;
-  animation: zrpfIRpo_draw 3000ms ease-out 573ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 573ms forwards;
 }
 .zrpfIRpo_48 {
   stroke-dasharray: 24 26;
   stroke-dashoffset: 25;
-  animation: zrpfIRpo_draw 3000ms ease-out 585ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 585ms forwards;
 }
 .zrpfIRpo_49 {
   stroke-dasharray: 71 73;
   stroke-dashoffset: 72;
-  animation: zrpfIRpo_draw 3000ms ease-out 597ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 597ms forwards;
 }
 .zrpfIRpo_50 {
   stroke-dasharray: 34 36;
   stroke-dashoffset: 35;
-  animation: zrpfIRpo_draw 3000ms ease-out 609ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 609ms forwards;
 }
 .zrpfIRpo_51 {
   stroke-dasharray: 497 499;
   stroke-dashoffset: 498;
-  animation: zrpfIRpo_draw 3000ms ease-out 621ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 621ms forwards;
 }
 .zrpfIRpo_52 {
   stroke-dasharray: 310 312;
   stroke-dashoffset: 311;
-  animation: zrpfIRpo_draw 3000ms ease-out 634ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 634ms forwards;
 }
 .zrpfIRpo_53 {
   stroke-dasharray: 15 17;
   stroke-dashoffset: 16;
-  animation: zrpfIRpo_draw 3000ms ease-out 646ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 646ms forwards;
 }
 .zrpfIRpo_54 {
   stroke-dasharray: 15 17;
   stroke-dashoffset: 16;
-  animation: zrpfIRpo_draw 3000ms ease-out 658ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 658ms forwards;
 }
 .zrpfIRpo_55 {
   stroke-dasharray: 15 17;
   stroke-dashoffset: 16;
-  animation: zrpfIRpo_draw 3000ms ease-out 670ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 670ms forwards;
 }
 .zrpfIRpo_56 {
   stroke-dasharray: 164 166;
   stroke-dashoffset: 165;
-  animation: zrpfIRpo_draw 3000ms ease-out 682ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 682ms forwards;
 }
 .zrpfIRpo_57 {
   stroke-dasharray: 25 27;
   stroke-dashoffset: 26;
-  animation: zrpfIRpo_draw 3000ms ease-out 695ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 695ms forwards;
 }
 .zrpfIRpo_58 {
   stroke-dasharray: 25 27;
   stroke-dashoffset: 26;
-  animation: zrpfIRpo_draw 3000ms ease-out 707ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 707ms forwards;
 }
 .zrpfIRpo_59 {
   stroke-dasharray: 25 27;
   stroke-dashoffset: 26;
-  animation: zrpfIRpo_draw 3000ms ease-out 719ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 719ms forwards;
 }
 .zrpfIRpo_60 {
   stroke-dasharray: 25 27;
   stroke-dashoffset: 26;
-  animation: zrpfIRpo_draw 3000ms ease-out 731ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 731ms forwards;
 }
 .zrpfIRpo_61 {
   stroke-dasharray: 20 22;
   stroke-dashoffset: 21;
-  animation: zrpfIRpo_draw 3000ms ease-out 743ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 743ms forwards;
 }
 .zrpfIRpo_62 {
   stroke-dasharray: 20 22;
   stroke-dashoffset: 21;
-  animation: zrpfIRpo_draw 3000ms ease-out 756ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 756ms forwards;
 }
 .zrpfIRpo_63 {
   stroke-dasharray: 20 22;
   stroke-dashoffset: 21;
-  animation: zrpfIRpo_draw 3000ms ease-out 768ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 768ms forwards;
 }
 .zrpfIRpo_64 {
   stroke-dasharray: 20 22;
   stroke-dashoffset: 21;
-  animation: zrpfIRpo_draw 3000ms ease-out 780ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 780ms forwards;
 }
 .zrpfIRpo_65 {
   stroke-dasharray: 61 50;
   stroke-dashoffset: 61;
-  animation: zrpfIRpo_draw 3000ms ease-out 792ms infinite;
+  animation: zrpfIRpo_draw 8000ms ease-out 792ms infinite;
 }
 .zrpfIRpo_66 {
   stroke-dasharray: 60 40;
   stroke-dashoffset: 61;
-  animation: zrpfIRpo_draw 3000ms ease-out 804ms infinite;
+  animation: zrpfIRpo_draw 8000ms ease-out 804ms infinite;
 }
 .zrpfIRpo_67 {
   stroke-dasharray: 60 20;
   stroke-dashoffset: 61;
-  animation: zrpfIRpo_draw 3000ms ease-out 817ms infinite;
+  animation: zrpfIRpo_draw 8000ms ease-out 817ms infinite;
 }
 .zrpfIRpo_68 {
   stroke-dasharray: 99 101;
   stroke-dashoffset: 100;
-  animation: zrpfIRpo_draw 3000ms ease-out 829ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 829ms forwards;
 }
 .zrpfIRpo_69 {
   stroke-dasharray: 58 60;
   stroke-dashoffset: 59;
-  animation: zrpfIRpo_draw 3000ms ease-out 841ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 841ms forwards;
 }
 .zrpfIRpo_70 {
   stroke-dasharray: 33 35;
@@ -1147,7 +1147,7 @@ p.text-center a {
 .zrpfIRpo_71 {
   stroke-dasharray: 188 190;
   stroke-dashoffset: 189;
-  animation: zrpfIRpo_draw 3000ms ease-out 865ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 865ms forwards;
 }
 .zrpfIRpo_72 {
   stroke-dasharray: 56 58;
@@ -1172,27 +1172,27 @@ p.text-center a {
 .zrpfIRpo_78 {
   stroke-dasharray: 112 114;
   stroke-dashoffset: 113;
-  animation: zrpfIRpo_draw 3000ms ease-out 951ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 951ms forwards;
 }
 .zrpfIRpo_79 {
   stroke-dasharray: 112 114;
   stroke-dashoffset: 113;
-  animation: zrpfIRpo_draw 3000ms ease-out 963ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 963ms forwards;
 }
 .zrpfIRpo_80 {
   stroke-dasharray: 72 74;
   stroke-dashoffset: 73;
-  animation: zrpfIRpo_draw 3000ms ease-out 975ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 975ms forwards;
 }
 .zrpfIRpo_81 {
   stroke-dasharray: 72 74;
   stroke-dashoffset: 73;
-  animation: zrpfIRpo_draw 3000ms ease-out 987ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 987ms forwards;
 }
 .zrpfIRpo_82 {
   stroke-dasharray: 74 76;
   stroke-dashoffset: 75;
-  animation: zrpfIRpo_draw 3000ms ease-out 1000ms forwards;
+  animation: zrpfIRpo_draw 8000ms ease-out 1000ms forwards;
 }
 @keyframes zrpfIRpo_draw {
   100% {
