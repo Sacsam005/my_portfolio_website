@@ -56,7 +56,7 @@
   }
 
   .sitemap .nav-item a {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .sitemap .nav-item i {
@@ -100,14 +100,14 @@
   }
 
   h1.text-center::first-letter,
-  h4.text-center::first-letter {
-    font-size: 2.2rem;
+  h3.text-center::first-letter {
+    font-size: 2rem;
   }
 
-  h4.text-center,
+  h3.text-center,
   h1.text-center,
   h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .asset-section {
@@ -222,7 +222,7 @@
   }
 
   a.nav-link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #fff;
     z-index: 1;
     padding: 1rem 1rem;
@@ -238,7 +238,7 @@
   #item1.card a,
   #item2.card a,
   pre code {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   h1.text-skills {
@@ -259,7 +259,7 @@
   }
 
   button {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     height: auto;
     text-align: left;
   }
@@ -299,7 +299,7 @@
     align-items: flex-start;
   }
 
-  .content-box h4,
+  .content-box h3,
   .content-box p {
     background-size: 80% 0.5px;
   }

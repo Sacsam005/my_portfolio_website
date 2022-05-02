@@ -58,7 +58,7 @@ body {
 }
 
 .timeline .timeline-experience-info p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 27px;
 }
 
@@ -66,7 +66,7 @@ body {
 #first .timeline-role,
 #first p {
   color: #d38ff8;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -74,7 +74,7 @@ body {
 #second .timeline-role,
 #second p {
   color: #4ab25d;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -102,7 +102,7 @@ body {
 #first .timeline-role::first-letter,
 #second h5::first-letter,
 #second .timeline-role::first-letter {
-  font-size: xx-large;
+  font-size: 1.8rem;
 }
 
 .timeline time {
@@ -111,7 +111,7 @@ body {
   color: #ccc;
   text-align: center;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 .timeline-experience-img,
@@ -197,6 +197,8 @@ img.fixed-circle {
 }
 
 .main-grid h3 {
+  font-size: 1.25rem;
+  line-height: 1.8;
   text-align: left;
   margin-top: 15rem;
   padding: 2rem 1rem 1rem 1rem;

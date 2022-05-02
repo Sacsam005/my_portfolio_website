@@ -34,6 +34,7 @@ iframe {
           justify-content: center;
   padding: 0 1rem;
   overflow: hidden;
+  gap: 2rem;
 }
 
 .grid-project a:hover {
@@ -227,10 +228,11 @@ iframe {
     padding: 0 !important;
   }
   .card-title h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .card-title p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
   }
 }
 
