@@ -663,8 +663,10 @@ p {
   font-size: 1.2rem;
 }
 
-.content button:not(.disable):hover {
+.content button:hover,
+.content button:focus {
   box-shadow: none;
+  outline: none;
 }
 
 pre code {
