@@ -57,14 +57,10 @@ form .half .item input {
 
 .item input#name,
 .item input#email-id {
-  color: #000 !important;
+  color: #fff;
   resize: none;
   font-weight: 700;
-}
-
-.item input#name:focus,
-.item input#email-id:focus {
-  background: #dcd9cd;
+  background: transparent;
 }
 
 .full #message {
@@ -76,7 +72,6 @@ form .full {
 }
 
 form .full textarea {
-  background: transparent;
   border-radius: 4px;
   border: 0.5px solid #fff;
   outline: 0;
@@ -96,7 +91,6 @@ form .action {
 }
 
 form .action input {
-  background: transparent;
   border-radius: 4px;
   border: 1px solid #fff;
   cursor: pointer;
