@@ -647,6 +647,11 @@ p {
   transition: all 0.5s ease-in;
 }
 
+.content,
+.content button {
+  overflow-x: hidden;
+}
+
 .content img {
   width: 8vmin;
   height: 8vmin;
