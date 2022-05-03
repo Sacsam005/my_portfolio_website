@@ -57,9 +57,10 @@ form .half .item input {
 
 .item input#name,
 .item input#email-id {
-  color: #fff !important;
+  color: #000 !important;
   resize: none;
   font-weight: 700;
+  background: transparent;
 }
 
 .full #message {
