@@ -1,7 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: #671e75;
+  background: transparent;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
 
 .card-title h2 {
   font-weight: 400;
+  background: transparent;
 }
 
 iframe {
@@ -94,6 +95,7 @@ iframe {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  background: transparent !important;
 }
 
 #project-section {

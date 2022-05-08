@@ -148,6 +148,8 @@ h3 {
 
 #chat-bot-launcher-container {
   background: transparent !important;
+  background: #671e75 !important;
+  border-radius: 1.75rem;
 }
 
 .chat-bot-message-label {
@@ -430,11 +432,6 @@ h1.text-center {
 
 h3.text-center {
   font-size: 1.5rem;
-}
-
-h1.text-center:hover {
-  color: orange;
-  cursor: pointer;
 }
 
 #about-section .card {
