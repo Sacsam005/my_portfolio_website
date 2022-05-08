@@ -59,7 +59,7 @@ form .half .item input {
 .item input#email-id {
   color: #fff;
   resize: none;
-  font-weight: 700;
+  font-weight: 400;
   background: transparent;
 }
 
@@ -83,7 +83,7 @@ form .full textarea {
 
 ::placeholder {
   opacity: 0.75;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 form .action {
@@ -110,7 +110,7 @@ form .action input[type='submit'],
 .action input[type='reset'] {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
   border-style: none;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 form .action input[type='submit']:hover,

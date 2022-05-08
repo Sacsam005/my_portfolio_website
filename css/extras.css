@@ -31,7 +31,7 @@ body {
 .timeline-label p {
   color: #d38ff8;
   padding: 0;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.5rem;
 }
 
@@ -67,7 +67,7 @@ body {
 #first p {
   color: #d38ff8;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #second h5,
@@ -75,7 +75,7 @@ body {
 #second p {
   color: #4ab25d;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #first h5,
@@ -110,7 +110,7 @@ body {
   width: 65px;
   color: #ccc;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 0.75rem;
 }
 
@@ -210,7 +210,7 @@ img.fixed-circle {
 
 span {
   color: orange;
-  font-weight: 700;
+  font-weight: 400;
   background: transparent;
 }
 

@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?&family=Exo:wght@200&family=Genos:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Exo:wght@200;400&family=Genos:wght@100&display=swap');
 
 /* General styling */
 * {
   font-family: 'Exo', sans-serif;
+  font-weight: 200;
   height: auto;
   background: #671e75;
   color: #fff;
@@ -87,7 +88,7 @@ ul {
 button {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.2rem;
   border-style: none !important;
 }
@@ -97,7 +98,7 @@ button:hover {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .active-link {
@@ -217,7 +218,7 @@ nav {
 #uppercase {
   font-size: 1.2rem;
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h1.text-center::first-letter,
@@ -273,7 +274,7 @@ footer span:hover {
 /* Main Section */
 span.result {
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
   text-shadow: 2px 5px 10px orange;
   background: linear-gradient(to right bottom, rgba(70, 68, 68, 0.01), rgba(70, 68, 68, 0.01));
   z-index: 1000;
@@ -428,7 +429,7 @@ h1.text-center {
 }
 
 h3.text-center {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 h1.text-center:hover {
@@ -443,7 +444,7 @@ h1.text-center:hover {
 }
 
 .card-body h3 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
@@ -519,7 +520,7 @@ h1.text-center:hover {
 
 .content-box h3 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 2;
 }
 
@@ -635,7 +636,7 @@ a.design-btn:hover {
 
 #item1 h3,
 #item2 h3 {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #item1.card a,
@@ -700,8 +701,8 @@ pre code {
 
 /* Footer */
 footer h3 {
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .footer-section {
@@ -752,7 +753,7 @@ footer h3 {
 
 input#email {
   color: #000;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1rem;
   background: #dcd9cd;
 }
@@ -764,7 +765,7 @@ form input.form-control {
 
 form input::placeholder {
   color: #9b9990 !important;
-  font-weight: 700;
+  font-weight: 400;
   opacity: 0.5 !important;
 }
 

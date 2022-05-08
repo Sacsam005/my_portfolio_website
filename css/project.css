@@ -10,7 +10,7 @@ body {
 }
 
 .card-title h2 {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 iframe {
@@ -132,7 +132,7 @@ iframe {
   display: block;
   font-size: 1.5rem;
   line-height: 2;
-  font-weight: 700;
+  font-weight: 400;
   text-align: right;
   background-image: -webkit-gradient(linear, left top, right top, from(orange), to(orange));
   background-image: linear-gradient(90deg, orange, orange);
