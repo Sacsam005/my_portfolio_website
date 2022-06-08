@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?&family=Exo:wght@200;400&family=Genos:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500;600&family=Genos:wght@100&display=swap');
 
 /* General styling */
 * {
   font-family: 'Exo', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   height: auto;
   background: #671e75;
   color: #fff;
@@ -220,7 +220,7 @@ nav {
 #uppercase {
   font-size: 1.2rem;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1.text-center::first-letter,
@@ -385,7 +385,7 @@ h3.text-center {
 }
 
 #about-section .card {
-  border: 0.3px solid rgba(0, 0, 0, 0.8);
+  border: 0.3px solid rgba(0, 0, 0, 0.5);
   box-shadow: 0 4px 5px rgba(52, 72, 115, 0.2);
   -webkit-box-shadow: 0 4px 5px rgba(52, 72, 115, 0.2);
 }
