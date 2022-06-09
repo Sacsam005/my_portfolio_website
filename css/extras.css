@@ -67,7 +67,7 @@ body {
 #first p {
   color: #d38ff8;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #second h5,
@@ -75,7 +75,11 @@ body {
 #second p {
   color: #4ab25d;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+#first h5, #second h5 {
+  font-weight: 700;
 }
 
 #first h5,
@@ -202,6 +206,7 @@ img.fixed-circle {
   text-align: left;
   margin-top: 15rem;
   padding: 2rem 1rem 1rem 1rem;
+  color: #fff;
   background-color: hsl(211, 15%, 33%);
   background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   border-radius: 10px;
@@ -209,7 +214,7 @@ img.fixed-circle {
 }
 
 span {
-  color: orange;
+  color: #E77200;
   font-weight: 400;
   background: transparent;
 }
