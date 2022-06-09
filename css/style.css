@@ -33,6 +33,7 @@ hr{
   width: 75%;
   height: 5rem;
   background-color: #D32CCA;
+  opacity: 0.75;
 }
 
 #home .scroll-indicator {
@@ -245,7 +246,7 @@ p::first-letter,
 #item1.card a,
 .sitemap .nav-item a,
 a.nav-link,
-footer span {
+footer span{
   background-image: linear-gradient(90deg, #E77200, #E77200);
   background-size: 0% 1px;
   background-repeat: no-repeat;
@@ -396,9 +397,8 @@ h3.text-center {
 }
 
 #about-section .card {
-  border: 0.3px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0 4px 5px rgba(52, 72, 115, 0.2);
-  -webkit-box-shadow: 0 4px 5px rgba(52, 72, 115, 0.2);
+  border: 0.25px solid rgba(0, 0, 0, 0.01);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px -5px, rgba(0, 0, 0, 0.5) 0px 2px 5px -1px;
 }
 
 .card-body h3 {
@@ -615,6 +615,15 @@ div.grid-container .grid-item a {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+
+#achievements-section a {
+  text-decoration: underline;
+}
+
+#achievements-section a:hover {
+  transition: ease 1s;
+  text-decoration: none;
 }
 
 #slider-container {
