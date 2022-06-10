@@ -347,12 +347,33 @@ svg {
 /* End main section */
 
 /* Skills section */
-.skills-section {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  align-items: center;
+.logo-slider {
+	-webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+	box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.logo-slider::before, .logo-slider::after {
+	content: "";
+	height: 175px;
+	position: absolute;
+	width: 200px;
+	z-index: 2;
+}
+
+.logo-slider::after {
+	right: 0;
+	top: 0;
+	-webkit-transform: rotateZ(180deg);
+	transform: rotateZ(180deg);
+}
+
+.logo-slider::before {
+	left: 0;
+	top: 0;
 }
 
 h1.text-skills {
@@ -360,28 +381,65 @@ h1.text-skills {
   left: 0;
   right: 0;
   font-family: 'Genos';
-  font-size: 30rem;
-  color: #000;
-  filter: opacity(0.2);
+  font-size: 8rem;
+  color: #555;
   text-align: center;
 }
 
-.skills-section img {
-  width: 40%;
-  margin: 0 auto;
-  background: transparent;
-  animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
-  -webkit-animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
-  -o-animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
+.logo-slider .logo-slide-track {
+	-webkit-animation: logo-scroll 60s linear infinite;
+	animation: logo-scroll 60s linear infinite;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+  padding-top: 1rem;
+	width: calc(250px * 10);
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(45deg);
-  }
+.logo-slider .logo-slide-track:last-child {
+	-webkit-animation: logo-scroll 60s linear infinite;
+	animation: logo-scroll 60s linear infinite;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+  padding-top: 2rem;
+		width: calc(250px * 10);
+  animation-duration: 25s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+.logo-slider .slide img{
+	height: 133px;
+	width: 133px;
+	padding: 20px;
+  margin: 0 1rem;
+}
+
+@-webkit-keyframes logo-scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+			-webkit-transform: translateX(calc(-250px * 7));
+	transform: translateX(calc(-250px * 7));
+	}
+}
+
+@keyframes logo-scroll {
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	100% {
+			-webkit-transform: translateX(calc(-250px * 7));
+	transform: translateX(calc(-250px * 7));
+	}
 }
 /* End of Skills Section */
 
