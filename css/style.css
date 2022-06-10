@@ -377,11 +377,7 @@ svg {
 }
 
 h1.text-skills {
-  position: absolute;
-  left: 0;
-  right: 0;
-  font-family: 'Genos';
-  font-size: 8rem;
+  font-size: 2rem;
   color: #555;
   text-align: center;
 }
