@@ -12,7 +12,7 @@ var timeOnSlide = 10,
     // array of possible vendor prefixes
     pfx = '',
     slider = document.getElementById('slider');
-if (slider.style.animationName !== undefined) {
+if (slider.style.AnimationName !== undefined) {
     animation = true;
 }
 // browser supports keyframe animation w/o prefixes
