@@ -1,6 +1,5 @@
 body {
   background: #fff;
-  height: 100vh;
   overflow-x: hidden;
   color: #000;
 }
@@ -131,13 +130,16 @@ form .action input[type='submit']:hover,
   form .half {
     flex-direction: column;
   }
+
   form .half .item {
     width: 100%;
   }
+
   form .action {
     display: flex;
     flex-direction: column;
   }
+
   form .action input {
     margin-bottom: 10px;
     width: 100%;

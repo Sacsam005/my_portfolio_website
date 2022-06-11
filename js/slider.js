@@ -1,5 +1,5 @@
 // Trophy slider
-var timeOnSlide = 8,
+var timeOnSlide = 10,
     // the time each image will remain static on the screen, measured in seconds
     timeBetweenSlides = 1,
     // the time taken to transition between images, measured in seconds
