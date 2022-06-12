@@ -2,202 +2,206 @@
 <html lang="en">
 
 <head>
-    <title>Sachin Samal - Contact Form</title>
+  <title>Sachin Samal - Contact Form</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT4260NNGK"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT4260NNGK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'G-RT4260NNGK');
-    </script>
+    gtag('config', 'G-RT4260NNGK');
+  </script>
 
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/png" href="./img/profile1.png" />
-    <link rel="apple-touch-icon" href="./img/profile1.png" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/contact.css">
-    <link rel="stylesheet" href="./css/page.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="./img/profile1.png" />
+  <link rel="apple-touch-icon" href="./img/profile1.png" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/page.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 </head>
 
 <body>
-    <!-- Page Transition -->
-    <div class="transition">
-        <div class="cover cover1"></div>
-        <div class="cover cover2"></div>
-        <div class="cover cover3"></div>
-    </div>
-    <div id="loader"></div>
-    <!--End of Page Transition -->
+  <!-- Page Transition -->
+  <div class="transition">
+    <div class="cover cover1"></div>
+    <div class="cover cover2"></div>
+    <div class="cover cover3"></div>
+  </div>
+  <div id="loader"></div>
+  <!--End of Page Transition -->
 
-    <!-- Header Section -->
-    <header id="home">
-        <nav>
-            <a href="index.html#home" id="logo-link">
-                <img src="./img/logo.png" alt="logo" id="logo">
+  <!-- Header Section -->
+  <header id="home">
+    <nav>
+      <a href="index.html#home" id="logo-link">
+        <img src="./img/logo.png" alt="logo" id="logo">
+      </a>
+
+      <div class="navbar">
+        <ul class="nav-menu">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="fas fa-home"></i>
+              <span id="uppercase">Home</span>
             </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">
+              <i class="fab fa-blogger"></i>
+              <span id="uppercase">Blogs</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">
+              <i class="fas fa-gem"></i>
+              <span id="uppercase">Projects</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extras.html">
+              <i class="fas fa-briefcase"></i>
+              <span id="uppercase">Experience</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-link" href="contact.html">
+              <i class="fas fa-id-card"></i>
+              <span id="uppercase">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-            <div class="navbar">
-                <ul class="nav-menu">
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            <i class="fas fa-home"></i>
-                            <span id="uppercase">Home</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">
-                            <i class="fab fa-blogger"></i>
-                            <span id="uppercase">Blogs</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="project.html">
-                            <i class="fas fa-gem"></i>
-                            <span id="uppercase">Projects</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="extras.html">
-                            <i class="fas fa-briefcase"></i>
-                            <span id="uppercase">Experience</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active-link" href="contact.html">
-                            <i class="fas fa-id-card"></i>
-                            <span id="uppercase">Contact</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <div class="scroll-indicator"></div>
+  </header>
+  <!-- End of Header Section -->
 
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-
-        <div class="scroll-indicator"></div>
-    </header>
-    <!-- End of Header Section -->
-
-    <!-- Form Section -->
-    <div class="form">
-        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks.html" data-aos="fade-in">
-            <div class="title">
-                <h2 data-aos="zoom-in">CONTACT</h2>
-            </div>
-            <div class="half">
-                <div class="item" data-aos="zoom-in-right">
-                    <label for="name">FULL NAME</label>
-                    <input type="text" placeholder="Full Name" id="name" name="name" required>
-                </div>
-                <div class="item" data-aos="zoom-in-left">
-                    <label for="email">EMAIL</label>
-                    <input type="text" placeholder="Email Address" id="email-id" name="email" required>
-                </div>
-            </div>
-            <div class="full" data-aos="zoom-out">
-                <label for="message">MESSAGE</label>
-                <textarea name="message" placeholder="Message" id="message" required></textarea>
-            </div>
-            <div class="action">
-                <input type="submit" value="SEND MESSAGE" data-aos="zoom-in-right">
-                <input type="reset" value="RESET" data-aos="zoom-in-left">
-            </div>
-        </form>
-    </div>
-    <!-- End  of Form Section -->
-
-<hr style="height: 1rem; width: 75%">
-
-    <!-- Footer Section-->
-    <footer class="footer-section">
-        <div class="container footer-grid">
-          <div class="quote" data-aos="fade-left">
-            <p>Any mistake is a <strong>wonderful revenue</strong>-Jack Ma</p>
-          </div>
-    
-          <div class="social" data-aos="fade-right">
-            <h3>Connect with me</h3>
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/sachinsamal120" target="_blank">
-                  <i class="fab fa-facebook fa-2x" style="color: #9b9990;"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/shachinmagar/" target="_blank">
-                  <i class="fab fa-instagram fa-2x" style="color: #9b9990;"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Sacsam005" target="_blank">
-                  <i class="fab fa-github fa-2x" style="color: #9b9990;"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/sachin-samal-590b19138/" target="_blank">
-                  <i class="fab fa-linkedin fa-2x" style="color:#9b9990"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://codepen.io/sacsam005" target="_blank">
-                  <i class="fab fa-codepen fa-2x" style="color: #9b9990"></i>
-                </a>
-              </li>
-            </ul>
-            <form class="form-inline">
-              <div class="input-group">
-                <input type="text" id="email" class="form-control" placeholder="Email">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">
-                    <a href="mailto:shachinmagar120.sm@gmail.com"><i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
+  <!-- Form Section -->
+  <div class="form">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks.html"
+      data-aos="fade-in">
+      <div class="title">
+        <h2 data-aos="zoom-in">CONTACT</h2>
+      </div>
+      <div class="half">
+        <div class="item" data-aos="zoom-in-right">
+          <label for="name">FULL NAME</label>
+          <input type="text" placeholder="Full Name" id="name" name="name" required>
         </div>
-    
-        <p class="text-center">&copy; 2021 | This page is maintained by
-          <a href="#main-section">
-            <span style="color:orange; font-weight: bold;">Sacsam005</span>
-          </a>
-        </p>
-      </footer>
-    <!-- End of Footer Section -->
+        <div class="item" data-aos="zoom-in-left">
+          <label for="email">EMAIL</label>
+          <input type="text" placeholder="Email Address" id="email-id" name="email" required>
+        </div>
+      </div>
+      <div class="full" data-aos="zoom-out">
+        <label for="message">MESSAGE</label>
+        <textarea name="message" placeholder="Message" id="message" required></textarea>
+      </div>
+      <div class="action">
+        <input type="submit" value="SEND MESSAGE" data-aos="zoom-in-right">
+        <input type="reset" value="RESET" data-aos="zoom-in-left">
+      </div>
+    </form>
+  </div>
+  <!-- End  of Form Section -->
 
-    <!-- Animation on scroll -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-            duration: 1200 // values from 0 to 3000, with step 50ms
-        });
-    </script>
-    <!-- End of Animation on scroll -->
+  <hr style="height: 1rem; width: 75%">
 
-    <!-- Optional Javascript -->
-    <script src="./js/main.js"></script>
+  <!-- Footer Section-->
+  <footer class="footer-section">
+    <div class="container footer-grid">
+      <div class="quote" data-aos="fade-left">
+        <p>Any mistake is a <strong>wonderful revenue</strong>-Jack Ma</p>
+      </div>
+
+      <div class="social" data-aos="fade-right">
+        <h3>Connect with me</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/sachinsamal120" target="_blank">
+              <i class="fab fa-facebook fa-2x" style="color: #9b9990;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/shachinmagar/" target="_blank">
+              <i class="fab fa-instagram fa-2x" style="color: #9b9990;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Sacsam005" target="_blank">
+              <i class="fab fa-github fa-2x" style="color: #9b9990;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sachin-samal-590b19138/" target="_blank">
+              <i class="fab fa-linkedin fa-2x" style="color:#9b9990"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://codepen.io/sacsam005" target="_blank">
+              <i class="fab fa-codepen fa-2x" style="color: #9b9990"></i>
+            </a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <div class="input-group">
+            <input type="text" id="email" class="form-control" placeholder="Email">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <a href="mailto:shachinmagar120.sm@gmail.com"><i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <p class="text-center">&copy; 2021 | This page is maintained by
+      <a href="#main-section">
+        <span style="color:orange; font-weight: bold;">Sacsam005</span>
+      </a>
+    </p>
+  </footer>
+  <!-- End of Footer Section -->
+
+  <!-- Animation on scroll -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <script>
+    AOS.init({
+      once: true,
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      duration: 1000 // values from 0 to 3000, with step 50ms
+    });
+  </script>
+  <!-- End of Animation on scroll -->
+
+  <!-- Optional Javascript -->
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="./img/profile1.png" />
     <link rel="apple-touch-icon" href="./img/profile1.png" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Genos:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Thank You</title>
 </head>
 
@@ -29,8 +31,14 @@
         z-index: 1;
         position: absolute;
         top: 50%;
-        left: 25%;
+        left: 50%;
         font-weight: bold;
+    }
+
+    @media screen and (max-width:680px) {
+        h1 {
+            font-size: 1.2rem;
+        }
     }
 </style>
 
@@ -39,11 +47,11 @@
     <h1 data-aos="fade-down">You've successfully submitted.</h1>
 
     <!-- Animation on scroll -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
     <script>
         AOS.init({
             disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-            duration: 2000, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
         });
     </script>
     <!-- End of Animation on scroll -->
