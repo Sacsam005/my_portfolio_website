@@ -61,6 +61,11 @@
     margin-top: 0.5rem;
   }
 
+  .text-box ul li {
+    font-size: 1.2rem;
+
+  }
+
   #achievements-section {
     width: 100%;
     display: -webkit-box;
@@ -126,6 +131,16 @@
     width: 10vmin;
     height: 10vmin;
     margin-top: 0.5rem;
+  }
+
+  .pop-up {
+    min-width: 90%;
+  }
+
+  .pop-up1.open,
+  .pop-up2.open,
+  .pop-up3.open {
+    width: 95%;
   }
 
   .tools {
