@@ -248,6 +248,151 @@ iframe {
   color: #9b9990 !important;
 }
 
+/* Demo Section */
+.demo-projects-section img {
+  width: 100%;
+  height: 95%;
+  margin-top: 1rem;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.gif-grid {
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
+}
+
+.gif-grid .pic {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0.75rem;
+}
+
+.pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.dots {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  border-radius: 50%;
+  top: 5%;
+  left: 15%;
+  z-index: 2;
+}
+
+.dots:nth-child(1) {
+  margin: 0 0.75rem;
+  background: #ffbd44;
+}
+
+.dots:nth-child(2) {
+  background: #00ca4e;
+  margin: 0 2.3rem;
+}
+
+.dots:nth-child(3) {
+  background: #ff605c;
+  margin: 0 -0.75rem;
+}
+
+/* End of Demo Section */
+/* Tools Section for Project Html*/
+.tools {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 2.5rem;
+}
+
+.tools .card {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#item1.card {
+  height: 55%;
+}
+
+#item1 h3,
+#item2 h3,
+.card p {
+  font-weight: 500;
+}
+
+#item1.card a,
+#item2.card a,
+p {
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.content-tool,
+.content-tool button {
+  overflow-x: hidden;
+}
+
+.content-tool img {
+  width: 8vmin;
+  height: 8vmin;
+  margin-top: 0.5rem;
+}
+
+.content-tool img:hover {
+  cursor: pointer;
+}
+
+.content-tool button {
+  max-width: 95%;
+  width: auto;
+  font-size: 1.2rem;
+}
+
+.content-tool button:hover,
+.content-tool button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+pre code {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+#item1.card,
+#item2.card {
+  padding-left: 0.5rem;
+  background: #fff;
+  text-align: start;
+  /* box-shadow: 0.5px 0.5px #E77200; */
+  line-height: 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+/* End of Tools section for Project Html*/
 @media (max-width: 991px) {
   #project-section .project-grid {
     display: -webkit-box;
