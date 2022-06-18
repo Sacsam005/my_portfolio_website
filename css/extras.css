@@ -33,6 +33,7 @@ body {
   padding: 0;
   font-weight: 400;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 .timeline-label a {
@@ -46,6 +47,7 @@ body {
 
 .col-exp {
   margin-top: 2%;
+  padding: 0 1rem !important;
 }
 
 .timeline .timeline-experience {
@@ -259,6 +261,7 @@ span {
 }
 
 .wave {
+  opacity: 0.75;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -287,7 +290,7 @@ span {
 }
 
 .wave.wave-3 {
-  opacity: 0.7;
+  opacity: 0.25;
   animation-duration: 5s;
 }
 
@@ -389,10 +392,10 @@ span {
     padding: 1rem 1rem;
   }
 
-  .timeline .timeline-experience {
+  /* .timeline .timeline-experience {
     margin-left: 0;
     padding-left: 0;
-  }
+  } */
 }
 
 @media screen and (max-width: 360px) {
