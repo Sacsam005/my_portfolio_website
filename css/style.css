@@ -273,8 +273,10 @@ footer span:hover {
 }
 
 #logo {
-  height: 80px;
-  width: 298.375px;
+  /* height: 80px;
+  width: 298.375px; */
+  width: 321.5px;
+  height: 71.5px;
 }
 
 .navbar i {
@@ -624,7 +626,7 @@ h3.text-center {
 }
 
 .text-box ul li {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: left;
   background: #FFFAFA;
   margin: 1rem 0 0 0;
