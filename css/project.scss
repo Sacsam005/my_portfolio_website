@@ -514,3 +514,73 @@ pre code {
     }
   }
 }
+
+.table-area {
+  margin-top: 50px;
+}
+
+table.responsive-table {
+  display: table;
+  /* required for table-layout to be used (not normally necessary; included for completeness) */
+  table-layout: fixed;
+  /* this keeps your columns with fixed with exactly the right width */
+  width: 100%;
+  /* table must have width set for fixed layout to work as expected */
+  height: 100%;
+  text-align: left;
+
+
+  thead {
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    // height: 50px;
+    background: #eee;
+  }
+
+  th {
+    font-size: 2rem;
+    font-weight: 500;
+    background: #eee;
+
+    @media screen and(max-width:500px) {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+  }
+
+  td {
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+
+    @media screen and(max-width:500px) {
+      li {
+        font-weight: 500;
+      }
+    }
+
+
+    ol {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      padding-inline-start: 0;
+    }
+
+    @media screen and(max-width:500px) {
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    a {
+      font-size: 1.5rem;
+      text-decoration: underline;
+
+      @media screen and(max-width:500px) {
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

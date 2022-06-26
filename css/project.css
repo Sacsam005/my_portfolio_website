@@ -510,4 +510,79 @@ pre code {
     font-size: 4rem;
   }
 }
+
+.table-area {
+  margin-top: 50px;
+}
+
+table.responsive-table {
+  display: table;
+  /* required for table-layout to be used (not normally necessary; included for completeness) */
+  table-layout: fixed;
+  /* this keeps your columns with fixed with exactly the right width */
+  width: 100%;
+  /* table must have width set for fixed layout to work as expected */
+  height: 100%;
+  text-align: left;
+}
+
+table.responsive-table thead {
+  top: 50px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #eee;
+}
+
+table.responsive-table th {
+  font-size: 2rem;
+  font-weight: 500;
+  background: #eee;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table th {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+
+table.responsive-table td {
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table td li {
+    font-weight: 500;
+  }
+}
+
+table.responsive-table td ol {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table td {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+table.responsive-table td a {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table td a {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
 /*# sourceMappingURL=project.css.map */
