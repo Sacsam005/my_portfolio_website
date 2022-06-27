@@ -116,7 +116,7 @@ table.responsive-table {
     ol {
       margin-block-start: 0;
       margin-block-end: 0;
-      padding-inline-start: 0;
+      padding-inline-start: 10px;
     }
 
     @media screen and(max-width:500px) {
@@ -131,6 +131,7 @@ table.responsive-table {
       &:hover {
         color: #E77200;
         text-decoration: none;
+        transition: 0.2s;
       }
 
       @media screen and(max-width:500px) {

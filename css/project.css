@@ -144,8 +144,8 @@ table.responsive-table td ol {
           margin-block-start: 0;
   -webkit-margin-after: 0;
           margin-block-end: 0;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
 }
 
 @media screen and (max-width: 500px) {
@@ -163,6 +163,8 @@ table.responsive-table td a {
 table.responsive-table td a:hover {
   color: #E77200;
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 500px) {
