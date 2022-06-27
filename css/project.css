@@ -13,7 +13,6 @@ body {
   padding-left: 1rem;
 }
 
-/* Asset Section Styling */
 .grid-container {
   position: relative;
   width: 100%;
@@ -92,10 +91,88 @@ body {
 }
 
 /* Asset Section section ends */
-iframe {
-  height: 250px !important;
+/*Project Table Section*/
+.table-area {
+  margin-top: 50px;
 }
 
+table.responsive-table {
+  display: table;
+  /* required for table-layout to be used (not normally necessary; included for completeness) */
+  table-layout: fixed;
+  /* this keeps your columns with fixed with exactly the right width */
+  width: 100%;
+  /* table must have width set for fixed layout to work as expected */
+  height: 100%;
+  text-align: left;
+}
+
+table.responsive-table thead {
+  top: 50px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #eee;
+}
+
+table.responsive-table th {
+  font-size: 2rem;
+  font-weight: 500;
+  background: #eee;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table th {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+
+table.responsive-table td {
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table td li {
+    font-weight: 500;
+  }
+}
+
+table.responsive-table td ol {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table td {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+table.responsive-table td a {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+table.responsive-table td a:hover {
+  color: #E77200;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  table.responsive-table td a {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+/* End of Project Table Setion */
 .grid-project {
   width: 100%;
   height: auto;
@@ -122,8 +199,15 @@ iframe {
 
 .grid-project #phone-frame {
   top: 0%;
-  left: 40%;
+  left: 68%;
   opacity: 0.075;
+}
+
+@media screen and (max-width: 500px) {
+  .grid-project #phone-frame {
+    top: 50%;
+    left: 50%;
+  }
 }
 
 .grid-project a:hover {
@@ -194,60 +278,6 @@ iframe {
 .grid-project .card-title h2:hover,
 .grid-project p:hover {
   background-size: 75% 2px;
-}
-
-#project-section {
-  overflow: hidden;
-  width: 100%;
-}
-
-#project-section .project-grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  gap: 1rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#project-section .project-grid .project-image-grid {
-  width: 100%;
-}
-
-#project-section .project-grid .project-image-grid img {
-  width: 100%;
-}
-
-#project-section .project-grid .project-list {
-  width: 100%;
-  padding: 0 1rem;
-}
-
-#project-section .project-grid .project-list a {
-  text-decoration: none;
-  display: block;
-  font-size: 1.5rem;
-  line-height: 2;
-  font-weight: 400;
-  text-align: right;
-  background-image: -webkit-gradient(linear, left top, right top, from(#E77200), to(#E77200));
-  background-image: linear-gradient(90deg, #E77200, #E77200);
-  background-size: 0% 2px;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease;
-  color: #000;
-  opacity: 0.6;
-}
-
-#project-section .project-grid .project-list a:hover {
-  background-size: 100% 2px;
-  opacity: 1;
 }
 
 /* Demo Section */
@@ -402,32 +432,11 @@ pre code {
   height: fit-content;
 }
 
-/* End of Tools section for Project Html*/
-@media (max-width: 991px) {
-  #project-section .project-grid {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #project-section .project-list a {
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-  .card-img img {
-    width: 100%;
-  }
+.card-img img {
+  width: 100%;
 }
 
+/* End of Tools section for Project Html*/
 @media (max-width: 500px) {
   .grid-project {
     width: 100%;
@@ -447,10 +456,6 @@ pre code {
             justify-content: center;
     padding: 1.5rem 0.5rem;
   }
-  #project-section .project-grid .project-list a {
-    font-size: 1.2rem;
-    line-height: 2;
-  }
   .card-body {
     padding: 0 !important;
   }
@@ -465,42 +470,6 @@ pre code {
   }
 }
 
-@media (max-width: 360px) {
-  #project-section .project-grid {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #project-section .project-grid .project-list a {
-    font-size: 1rem;
-    line-height: 2;
-  }
-}
-
-@media (min-width: 992px) {
-  #project-section .project-grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 2fr 1fr;
-        grid-template-columns: 2fr 1fr;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
-  }
-  #project-section .project-list a {
-    font-size: 1.2rem;
-  }
-}
-
 @media (min-width: 1280px) {
   .text-box {
     top: 25%;
@@ -508,81 +477,6 @@ pre code {
   }
   .text-box h1 {
     font-size: 4rem;
-  }
-}
-
-.table-area {
-  margin-top: 50px;
-}
-
-table.responsive-table {
-  display: table;
-  /* required for table-layout to be used (not normally necessary; included for completeness) */
-  table-layout: fixed;
-  /* this keeps your columns with fixed with exactly the right width */
-  width: 100%;
-  /* table must have width set for fixed layout to work as expected */
-  height: 100%;
-  text-align: left;
-}
-
-table.responsive-table thead {
-  top: 50px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background: #eee;
-}
-
-table.responsive-table th {
-  font-size: 2rem;
-  font-weight: 500;
-  background: #eee;
-}
-
-@media screen and (max-width: 500px) {
-  table.responsive-table th {
-    font-size: 1.25rem;
-    font-weight: 700;
-  }
-}
-
-table.responsive-table td {
-  font-size: 1.5rem;
-  overflow-wrap: break-word;
-}
-
-@media screen and (max-width: 500px) {
-  table.responsive-table td li {
-    font-weight: 500;
-  }
-}
-
-table.responsive-table td ol {
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
-}
-
-@media screen and (max-width: 500px) {
-  table.responsive-table td {
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-}
-
-table.responsive-table td a {
-  font-size: 1.5rem;
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 500px) {
-  table.responsive-table td a {
-    font-size: 0.9rem;
-    font-weight: 600;
   }
 }
 /*# sourceMappingURL=project.css.map */
