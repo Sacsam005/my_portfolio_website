@@ -30,8 +30,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 hr {
-  width: 75%;
-  height: 5rem;
+  width: 75% !important;
+  height: 1rem !important;
   background-color: #E77200;
   opacity: 0.75;
 }
@@ -108,7 +108,7 @@ button:hover {
   box-shadow: 0px 4px 5px #E77200;
 }
 
-h3 {
+h2 {
   font-size: 1.5rem;
 }
 
@@ -236,7 +236,7 @@ nav {
 }
 
 h1.text-center::first-letter,
-.content-box h3::first-letter {
+.content-box h2::first-letter {
   font-size: 2.25rem !important;
 }
 
@@ -265,7 +265,7 @@ footer span:hover {
   text-decoration: none;
 }
 
-.content-box h3,
+.content-box h2,
 .content-box p {
   background-image: linear-gradient(90deg, #E77200, #E77200, #E77200);
   background-size: 100% 0.5px;
@@ -273,8 +273,6 @@ footer span:hover {
 }
 
 #logo {
-  /* height: 80px;
-  width: 298.375px; */
   width: 321.5px;
   height: 71.5px;
 }
@@ -283,12 +281,17 @@ footer span:hover {
   margin: 1vmin;
 }
 
-/* End of navbar */
+/* End of Navbar */
 
 /* Main Section */
+.main-section h2.text-center {
+  font-size: 2rem;
+  color: #333;
+}
+
 span.result {
-  color: #000;
-  font-size: 1.5rem;
+  color: #333;
+  font-size: 2rem;
   font-weight: 500;
   background: linear-gradient(to right bottom, rgba(70, 68, 68, 0.01), rgba(70, 68, 68, 0.01));
   z-index: 1000;
@@ -333,10 +336,11 @@ span.result {
   font-size: 1.2rem !important;
 }
 
-p.text-center {
+/* h2.text-center {
+  font-size: 1.5rem !important;
   z-index: 100;
   color: #E77200 !important;
-}
+} */
 
 svg {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px, rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
@@ -450,7 +454,7 @@ h1.text-center {
   font-weight: 600;
 }
 
-h3.text-center {
+h2.text-center {
   font-size: 1.5rem;
 }
 
@@ -462,8 +466,8 @@ h3.text-center {
   box-shadow: rgb(0 0 0 / 40%) 0px 2px 5px 0px, rgb(0 0 0 / 50%) 0px 2px 8px 0px;
 }
 
-.card-body h3 {
-  font-weight: 500;
+.card-body h2 {
+  font-weight: 600;
   font-size: 1.5rem;
 }
 
@@ -592,7 +596,7 @@ h3.text-center {
   padding: 0.75rem 0.75rem;
 }
 
-.content-box h3 {
+.content-box h2 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2;
@@ -738,7 +742,7 @@ h3.text-center {
 /* End of Achievements-section */
 
 /* Footer */
-footer h3 {
+footer h2 {
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -758,6 +762,10 @@ footer h3 {
   place-items: center !important;
 }
 
+strong {
+  font-weight: 500 !important;
+}
+
 .social ul li {
   display: inline-block;
   padding: 0 0.25rem;
@@ -767,6 +775,11 @@ footer h3 {
 .social ul li a {
   text-decoration: none;
   list-style-type: none;
+}
+
+.social i {
+  font-size: 2rem;
+  color: #9b9990 !important;
 }
 
 .social i:hover {
@@ -805,8 +818,15 @@ p.text-center a {
   list-style-type: none;
 }
 
+p span {
+  color: #ED9540;
+  font-weight: 600;
+  ;
+}
+
 .input-group>.input-group-prepend>.input-group-text {
   background: #dcd9cd;
+  padding: 0;
 }
 
 /* End of Footer Styling */

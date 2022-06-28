@@ -204,7 +204,7 @@ img.fixed-circle {
   left: 50%;
 }
 
-.main-grid h3 {
+.main-grid h2 {
   font-size: 1.25rem;
   line-height: 1.8;
   text-align: left;
@@ -339,7 +339,7 @@ span {
 }
 
 @media screen and (max-width: 1024px) {
-  .main-grid h3 {
+  .main-grid h2 {
     font-size: 1.5rem;
     text-align: left;
   }
@@ -380,7 +380,7 @@ span {
     padding: 0 0.5rem;
   }
 
-  .main-grid h3 {
+  .main-grid h2 {
     font-size: 1.5rem;
     text-align: left;
     margin-top: -3rem;
@@ -407,7 +407,7 @@ span {
     padding: 1rem 0.5rem;
   }
 
-  .main-grid h3 {
+  .main-grid h2 {
     width: auto;
   }
 

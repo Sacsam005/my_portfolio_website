@@ -95,13 +95,13 @@
   }
 
   h1.text-center::first-letter,
-  h3.text-center::first-letter {
+  h2.text-center::first-letter {
     font-size: 2rem;
   }
 
-  h3.text-center,
+  h2.text-center,
   h1.text-center,
-  h3 {
+  h2 {
     font-size: 1.75rem;
   }
 
@@ -245,7 +245,7 @@
     z-index: 999;
   }
 
-  h3,
+  h2,
   p,
   p.text-center,
   #item1.card a,
@@ -324,7 +324,7 @@
     justify-content: center;
   }
 
-  .content-box h3,
+  .content-box h2,
   .content-box p {
     background-size: 80% 0.5px;
   }
@@ -362,16 +362,16 @@
 
   h1,
   h2,
-  h3,
+  h2,
   h1.text-center,
   h2.text-center,
-  h3.text-center,
-  .card-body h3,
+  h2.text-center,
+  .card-body h2,
   h1.text-left,
-  .content-box h3,
-  .blog-section-intro h3,
-  #item1 h3,
-  #item2 h3,
+  .content-box h2,
+  .blog-section-intro h2,
+  #item1 h2,
+  #item2 h2,
   #item1.card a {
     font-size: 2.5rem;
   }
@@ -391,13 +391,13 @@
   .blog-section-intro p,
   .card-body ul li,
   .card p,
-  .main-grid h3 {
-    font-size: 1.5rem;
+  .main-grid h2 {
+    font-size: 1.25rem;
   }
 
   h1.text-center::first-letter,
-  .content-box h3::first-letter,
-  .blog-section-intro h3::first-letter {
+  .content-box h2::first-letter,
+  .blog-section-intro h2::first-letter {
     font-size: 3rem !important;
   }
 
