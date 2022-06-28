@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /img/
+Disallow: /pages/thankyou.html
+Disallow: /css/
+Disallow: /js/
+Disallow: /node_modules
+Disallow: /.vscode/
+Disallow: /.circleci/
